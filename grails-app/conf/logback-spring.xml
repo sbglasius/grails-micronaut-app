@@ -8,7 +8,7 @@
             <level>${CONSOLE_LOG_THRESHOLD}</level>
         </filter>
         <encoder>
-            <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+            <pattern>%-5level %logger{36} - %msg%n</pattern>
             <charset>${CONSOLE_LOG_CHARSET}</charset>
         </encoder>
     </appender>
@@ -28,7 +28,10 @@
 
 <!--        <root level="WARN"/>-->
     </springProfile>
-
+    <logger name="org.grails.plugins" level="TRACE"/>
+    <logger name="grails.plugins" level="TRACE"/>
+    <logger name="io.micronaut.context" level="DEBUG"/>
+    <logger name="io.micronaut.spring" level="TRACE"/>
 <!--    logging to a file-->
 <!--    <property name="LOG_FILE" value="${LOG_FILE:-${LOG_PATH:-${LOG_TEMP:-${java.io.tmpdir:-/tmp}}/}spring.log}"/>-->
 <!--    <include resource="org/springframework/boot/logging/logback/file-appender.xml" />-->

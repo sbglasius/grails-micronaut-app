@@ -1,0 +1,82 @@
+
+>                                                                            <
+>                            ____           _ _                              <
+>                           / ___|_ __ __ _(_) |___                          <
+>                          | |  _| '__/ _` | | / __|                         <
+>                          | |_| | | | (_| | | \__ \                         <
+>                           \____|_|  \__,_|_|_|___/                         <
+>                          https://grails.apache.org                         <
+>                                                                            <
+
+DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Environment deduction was set explicitly via builder to: false
+INFO  i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Established active environments: [production]
+DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Starting environment io.micronaut.context.DefaultApplicationContext$RuntimeConfiguredEnvironment@5ac53c06 for active names [production]
+DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Reading property sources from loader: io.micronaut.context.env.PropertiesPropertySourceLoader@54af3cb9
+DEBUG i.m.c.e.PropertiesPropertySourceLoader - No PropertySource found for file name: application.properties
+DEBUG i.m.c.e.PropertiesPropertySourceLoader - No PropertySource found for file name: application-production.properties
+DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Reading property sources from loader: io.micronaut.context.env.yaml.YamlPropertySourceLoader@1e1237ab
+DEBUG i.m.c.e.y.YamlPropertySourceLoader - Found PropertySource for file name: application.yml
+DEBUG i.m.c.e.y.YamlPropertySourceLoader - No PropertySource found for file name: application-production.yml
+DEBUG i.m.c.e.y.YamlPropertySourceLoader - No PropertySource found for file name: application-production.yaml
+DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Processing property source: application
+DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Processing property source: env
+DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Processing property source: system
+DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Processing property source: systemProperties
+DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Processing property source: systemEnvironment
+DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Processing property source: Config resource 'class path resource [application.yml]' via location 'optional:classpath:/'
+DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Processing property source: applicationInfo
+DEBUG i.m.context.DefaultBeanContext - Finding candidate beans for type: DefaultEnvironment
+DEBUG i.m.context.DefaultBeanContext - No bean candidates found for type: DefaultEnvironment
+DEBUG i.m.context.DefaultBeanContext - Starting BeanContext
+DEBUG i.m.context.DefaultBeanContext - Finding candidate beans for type: BeanCreatedEventListener
+DEBUG i.m.context.DefaultBeanContext - No bean candidates found for type: BeanCreatedEventListener
+DEBUG i.m.context.DefaultBeanContext - Finding candidate beans for type: BeanInitializedEventListener
+DEBUG i.m.context.DefaultBeanContext - No bean candidates found for type: BeanInitializedEventListener
+DEBUG i.m.context.DefaultBeanContext - Resolving beans for type: io.micronaut.core.convert.TypeConverter
+DEBUG i.m.context.DefaultBeanContext - Finding candidate beans for type: TypeConverter
+DEBUG i.m.context.DefaultBeanContext - No bean candidates found for type: TypeConverter
+DEBUG i.m.context.DefaultBeanContext - Resolving beans for type: io.micronaut.core.convert.TypeConverterRegistrar
+DEBUG i.m.context.DefaultBeanContext - Finding candidate beans for type: TypeConverterRegistrar
+DEBUG i.m.context.DefaultBeanContext - No bean candidates found for type: TypeConverterRegistrar
+DEBUG i.m.context.DefaultBeanContext - BeanContext Started.
+DEBUG i.m.context.DefaultBeanContext - Finding candidate beans for type: ApplicationEventPublisher<StartupEvent T>
+DEBUG i.m.context.DefaultBeanContext - No bean candidates found for type: ApplicationEventPublisher<StartupEvent T>
+DEBUG i.m.context.DefaultBeanContext - Finding candidate beans for type: ApplicationEventPublisher<StartupEvent T>
+DEBUG i.m.context.DefaultBeanContext - No bean candidates found for type: ApplicationEventPublisher<StartupEvent T>
+DEBUG i.m.context.DefaultBeanContext - No bean candidates found for type: ApplicationEventPublisher<StartupEvent T>
+ERROR o.s.boot.SpringApplication - Application run failed
+io.micronaut.context.exceptions.NoSuchBeanException: No bean of type [io.micronaut.context.event.ApplicationEventPublisher<io.micronaut.context.event.StartupEvent>] exists. 
+	at io.micronaut.context.DefaultBeanContext.newNoSuchBeanException(DefaultBeanContext.java:2804)
+	at io.micronaut.context.DefaultApplicationContext.newNoSuchBeanException(DefaultApplicationContext.java:338)
+	at io.micronaut.context.DefaultBeanContext.resolveBeanRegistration(DefaultBeanContext.java:2767)
+	at io.micronaut.context.DefaultBeanContext.getBean(DefaultBeanContext.java:1781)
+	at io.micronaut.context.DefaultBeanContext.getBean(DefaultBeanContext.java:855)
+	at io.micronaut.context.BeanLocator.getBean(BeanLocator.java:97)
+	at io.micronaut.context.DefaultBeanContext.publishEvent(DefaultBeanContext.java:1867)
+	at io.micronaut.context.DefaultBeanContext.start(DefaultBeanContext.java:368)
+	at io.micronaut.context.DefaultApplicationContext.start(DefaultApplicationContext.java:225)
+	at io.micronaut.spring.boot.starter.MicronautImportRegistrar.registerBeanDefinitions(MicronautImportRegistrar.java:128)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:409)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:408)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:430)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at grails.boot.GrailsApp.run(GrailsApp.groovy:103)
+	at grails.boot.GrailsApp.run(GrailsApp.groovy:397)
+	at grails.boot.GrailsApp.run(GrailsApp.groovy:386)
+	at com.example.app.Application.main(Application.groovy:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:106)
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64)
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40)
