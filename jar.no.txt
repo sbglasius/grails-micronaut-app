@@ -10,11 +10,11 @@
 
 DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Environment deduction was set explicitly via builder to: false
 INFO  i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Established active environments: [production]
-DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Starting environment io.micronaut.context.DefaultApplicationContext$RuntimeConfiguredEnvironment@5ac53c06 for active names [production]
-DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Reading property sources from loader: io.micronaut.context.env.PropertiesPropertySourceLoader@54af3cb9
+DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Starting environment io.micronaut.context.DefaultApplicationContext$RuntimeConfiguredEnvironment@2443abd6 for active names [production]
+DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Reading property sources from loader: io.micronaut.context.env.PropertiesPropertySourceLoader@674da77b
 DEBUG i.m.c.e.PropertiesPropertySourceLoader - No PropertySource found for file name: application.properties
 DEBUG i.m.c.e.PropertiesPropertySourceLoader - No PropertySource found for file name: application-production.properties
-DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Reading property sources from loader: io.micronaut.context.env.yaml.YamlPropertySourceLoader@1e1237ab
+DEBUG i.m.c.DefaultApplicationContext$RuntimeConfiguredEnvironment - Reading property sources from loader: io.micronaut.context.env.yaml.YamlPropertySourceLoader@4e140497
 DEBUG i.m.c.e.y.YamlPropertySourceLoader - Found PropertySource for file name: application.yml
 DEBUG i.m.c.e.y.YamlPropertySourceLoader - No PropertySource found for file name: application-production.yml
 DEBUG i.m.c.e.y.YamlPropertySourceLoader - No PropertySource found for file name: application-production.yaml
@@ -46,14 +46,14 @@ DEBUG i.m.context.DefaultBeanContext - No bean candidates found for type: Applic
 DEBUG i.m.context.DefaultBeanContext - No bean candidates found for type: ApplicationEventPublisher<StartupEvent T>
 ERROR o.s.boot.SpringApplication - Application run failed
 io.micronaut.context.exceptions.NoSuchBeanException: No bean of type [io.micronaut.context.event.ApplicationEventPublisher<io.micronaut.context.event.StartupEvent>] exists. 
-	at io.micronaut.context.DefaultBeanContext.newNoSuchBeanException(DefaultBeanContext.java:2804)
+	at io.micronaut.context.DefaultBeanContext.newNoSuchBeanException(DefaultBeanContext.java:2816)
 	at io.micronaut.context.DefaultApplicationContext.newNoSuchBeanException(DefaultApplicationContext.java:338)
-	at io.micronaut.context.DefaultBeanContext.resolveBeanRegistration(DefaultBeanContext.java:2767)
-	at io.micronaut.context.DefaultBeanContext.getBean(DefaultBeanContext.java:1781)
-	at io.micronaut.context.DefaultBeanContext.getBean(DefaultBeanContext.java:855)
+	at io.micronaut.context.DefaultBeanContext.resolveBeanRegistration(DefaultBeanContext.java:2779)
+	at io.micronaut.context.DefaultBeanContext.getBean(DefaultBeanContext.java:1786)
+	at io.micronaut.context.DefaultBeanContext.getBean(DefaultBeanContext.java:847)
 	at io.micronaut.context.BeanLocator.getBean(BeanLocator.java:97)
-	at io.micronaut.context.DefaultBeanContext.publishEvent(DefaultBeanContext.java:1867)
-	at io.micronaut.context.DefaultBeanContext.start(DefaultBeanContext.java:368)
+	at io.micronaut.context.DefaultBeanContext.publishEvent(DefaultBeanContext.java:1872)
+	at io.micronaut.context.DefaultBeanContext.start(DefaultBeanContext.java:360)
 	at io.micronaut.context.DefaultApplicationContext.start(DefaultApplicationContext.java:225)
 	at io.micronaut.spring.boot.starter.MicronautImportRegistrar.registerBeanDefinitions(MicronautImportRegistrar.java:128)
 	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:409)

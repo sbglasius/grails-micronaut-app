@@ -69,6 +69,8 @@ dependencies {
     testImplementation "org.apache.grails:grails-testing-support-datamapping"
     testImplementation "org.apache.grails:grails-testing-support-web"
     testImplementation "org.spockframework:spock-core"
+    
+    implementation(enforcedPlatform("io.micronaut.platform:micronaut-platform:${micronautPlatformVersion}"))
 }
 
 compileJava.options.release = 17
@@ -92,3 +94,13 @@ assets {
     ]
 }
 
+// This section makes the bootJar file runnable
+tasks.named('bootJar') {
+    // Ensure Micronaut jars are unpacked in the loader
+    requiresUnpack(
+            "**/micronaut-core*.jar",
+            "**/micronaut-context*.jar",
+            "**/micronaut-inject*.jar",
+            "**/micronaut-aop*.jar"
+    )
+}
