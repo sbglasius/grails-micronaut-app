@@ -1,0 +1,1190 @@
+executing gradlew instead of gradle
+
+> Configure project :
+Micronaut Support Detected for grails-micronaut-app
+
+> Task :dependencies
+
+------------------------------------------------------------
+Root project 'grails-micronaut-app'
+------------------------------------------------------------
+
+productionRuntimeClasspath
++--- org.apache.grails:grails-bom:7.0.1
+|    +--- org.springframework.boot:spring-boot-dependencies:3.5.7
+|    |    +--- jakarta.xml.bind:jakarta.xml.bind-api:4.0.4 (c)
+|    |    +--- org.apache.logging.log4j:log4j-to-slf4j:2.24.3 (c)
+|    |    +--- io.micrometer:micrometer-jakarta9:1.15.5 (c)
+|    |    +--- io.micrometer:micrometer-observation:1.15.5 (c)
+|    |    +--- org.springframework:spring-beans:6.2.12 (c)
+|    |    +--- org.springframework:spring-context:6.2.12 (c)
+|    |    +--- org.springframework:spring-core:6.2.12 (c)
+|    |    +--- org.springframework:spring-orm:6.2.12 (c)
+|    |    +--- org.springframework:spring-tx:6.2.12 (c)
+|    |    +--- com.github.ben-manes.caffeine:caffeine:3.2.2 (c)
+|    |    +--- com.h2database:h2:2.3.232 (c)
+|    |    +--- org.hibernate.validator:hibernate-validator:8.0.3.Final (c)
+|    |    +--- com.zaxxer:HikariCP:6.3.3 (c)
+|    |    +--- jakarta.annotation:jakarta.annotation-api:2.1.1 (c)
+|    |    +--- jakarta.inject:jakarta.inject-api:2.0.1 (c)
+|    |    +--- jakarta.persistence:jakarta.persistence-api:3.1.0 (c)
+|    |    +--- ch.qos.logback:logback-classic:1.5.20 (c)
+|    |    +--- org.springframework.boot:spring-boot:3.5.7 (c)
+|    |    +--- org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.7 (c)
+|    |    +--- org.springframework.boot:spring-boot-autoconfigure:3.5.7 (c)
+|    |    +--- org.springframework.boot:spring-boot-starter:3.5.7 (c)
+|    |    +--- org.springframework.boot:spring-boot-starter-actuator:3.5.7 (c)
+|    |    +--- org.springframework.boot:spring-boot-starter-logging:3.5.7 (c)
+|    |    +--- org.springframework.boot:spring-boot-starter-tomcat:3.5.7 (c)
+|    |    +--- org.springframework.boot:spring-boot-starter-validation:3.5.7 (c)
+|    |    +--- org.slf4j:jcl-over-slf4j:2.0.17 (c)
+|    |    +--- org.slf4j:jul-to-slf4j:2.0.17 (c)
+|    |    +--- org.slf4j:slf4j-api:2.0.17 (c)
+|    |    +--- org.yaml:snakeyaml:2.4 (c)
+|    |    +--- org.apache.tomcat.embed:tomcat-embed-core:10.1.48 (c)
+|    |    +--- org.apache.tomcat.embed:tomcat-embed-el:10.1.48 (c)
+|    |    +--- org.apache.tomcat.embed:tomcat-embed-websocket:10.1.48 (c)
+|    |    +--- org.springframework:spring-web:6.2.12 (c)
+|    |    +--- org.jspecify:jspecify:1.0.0 (c)
+|    |    +--- org.springframework:spring-jcl:6.2.12 (c)
+|    |    +--- org.springframework:spring-aop:6.2.12 (c)
+|    |    +--- org.springframework:spring-expression:6.2.12 (c)
+|    |    +--- org.springframework:spring-jdbc:6.2.12 (c)
+|    |    +--- org.jboss.logging:jboss-logging:3.6.1.Final (c)
+|    |    +--- net.bytebuddy:byte-buddy:1.17.8 -> 1.17.7 (c)
+|    |    +--- jakarta.transaction:jakarta.transaction-api:2.0.1 (c)
+|    |    +--- com.fasterxml:classmate:1.7.1 (c)
+|    |    +--- jakarta.activation:jakarta.activation-api:2.1.4 (c)
+|    |    +--- org.glassfish.jaxb:jaxb-runtime:4.0.6 (c)
+|    |    +--- org.apache.commons:commons-lang3:3.17.0 (c)
+|    |    +--- org.springframework:spring-webmvc:6.2.12 (c)
+|    |    +--- org.springframework:spring-context-support:6.2.12 (c)
+|    |    +--- jakarta.servlet:jakarta.servlet-api:6.0.0 (c)
+|    |    +--- com.fasterxml.jackson.core:jackson-databind:2.19.2 (c)
+|    |    +--- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.2 (c)
+|    |    +--- org.springframework.boot:spring-boot-actuator:3.5.7 (c)
+|    |    +--- io.micrometer:micrometer-commons:1.15.5 (c)
+|    |    +--- io.micrometer:micrometer-core:1.15.5 (c)
+|    |    +--- ch.qos.logback:logback-core:1.5.20 (c)
+|    |    +--- org.apache.logging.log4j:log4j-api:2.24.3 (c)
+|    |    +--- jakarta.validation:jakarta.validation-api:3.0.2 (c)
+|    |    +--- org.glassfish.jaxb:jaxb-core:4.0.6 (c)
+|    |    +--- commons-codec:commons-codec:1.18.0 (c)
+|    |    +--- io.projectreactor:reactor-core:3.7.12 (c)
+|    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.19.2 (c)
+|    |    +--- com.fasterxml.jackson.core:jackson-core:2.19.2 (c)
+|    |    +--- org.eclipse.angus:angus-activation:2.0.3 (c)
+|    |    +--- org.glassfish.jaxb:txw2:4.0.6 (c)
+|    |    +--- com.sun.istack:istack-commons-runtime:4.1.2 (c)
+|    |    \--- org.reactivestreams:reactive-streams:1.0.4 (c)
+|    +--- cloud.wondrify:asset-pipeline-bom:5.0.19
+|    |    +--- cloud.wondrify:asset-pipeline-core:5.0.19 (c)
+|    |    \--- cloud.wondrify:asset-pipeline-grails:5.0.19 (c)
+|    +--- org.spockframework:spock-bom:2.3-groovy-4.0
+|    +--- com.fasterxml.jackson:jackson-bom:2.19.1 -> 2.19.2
+|    |    +--- com.fasterxml.jackson.core:jackson-databind:2.19.2 (c)
+|    |    +--- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.2 (c)
+|    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.19.2 (c)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.19.2 (c)
+|    +--- org.apache.groovy:groovy-bom:4.0.29
+|    |    +--- org.apache.groovy:groovy:4.0.29 (c)
+|    |    +--- org.apache.groovy:groovy-xml:4.0.29 (c)
+|    |    +--- org.apache.groovy:groovy-templates:4.0.29 (c)
+|    |    +--- org.apache.groovy:groovy-json:4.0.29 (c)
+|    |    \--- org.apache.groovy:groovy-sql:4.0.29 (c)
+|    +--- org.seleniumhq.selenium:selenium-bom:4.34.0
+|    +--- org.fusesource.jansi:jansi:1.18 (c)
+|    +--- com.h2database:h2:2.3.232 (c)
+|    +--- org.apache.grails:grails-core:7.0.1 (c)
+|    +--- org.apache.grails:grails-data-hibernate5:7.0.1 (c)
+|    +--- org.apache.grails:grails-databinding:7.0.1 (c)
+|    +--- org.apache.grails:grails-events:7.0.1 (c)
+|    +--- org.apache.grails:grails-gsp:7.0.1 (c)
+|    +--- org.apache.grails:grails-interceptors:7.0.1 (c)
+|    +--- org.apache.grails:grails-layout:7.0.1 (c)
+|    +--- org.apache.grails:grails-logging:7.0.1 (c)
+|    +--- org.apache.grails:grails-micronaut:7.0.1 (c)
+|    +--- org.apache.grails:grails-rest-transforms:7.0.1 (c)
+|    +--- org.apache.grails:grails-scaffolding:7.0.1 (c)
+|    +--- org.apache.grails:grails-services:7.0.1 (c)
+|    +--- org.apache.grails:grails-url-mappings:7.0.1 (c)
+|    +--- org.apache.grails:grails-web-boot:7.0.1 (c)
+|    +--- org.apache.grails.common:grails-common:7.0.1 (c)
+|    +--- org.apache.grails.bootstrap:grails-bootstrap:7.0.1 (c)
+|    +--- org.apache.grails:grails-spring:7.0.1 (c)
+|    +--- org.apache.grails.data:grails-datastore-core:7.0.1 (c)
+|    +--- org.apache.grails.data:grails-datastore-web:7.0.1 (c)
+|    +--- org.apache.grails.data:grails-datamapping-support:7.0.1 (c)
+|    +--- org.apache.grails.data:grails-data-hibernate5-core:7.0.1 (c)
+|    +--- org.apache.grails.web:grails-web-core:7.0.1 (c)
+|    +--- org.apache.grails.events:grails-events-core:7.0.1 (c)
+|    +--- org.apache.grails.events:grails-events-compat:7.0.1 (c)
+|    +--- org.apache.grails.events:grails-events-transforms:7.0.1 (c)
+|    +--- org.apache.grails.views:grails-taglib:7.0.1 (c)
+|    +--- org.apache.grails.views:grails-web-gsp-taglib:7.0.1 (c)
+|    +--- org.apache.commons:commons-text:1.13.1 (c)
+|    +--- org.apache.grails.web:grails-web-common:7.0.1 (c)
+|    +--- org.apache.grails.web:grails-web-mvc:7.0.1 (c)
+|    +--- org.apache.grails.views:grails-gsp-core:7.0.1 (c)
+|    +--- org.apache.grails.views:grails-web-gsp:7.0.1 (c)
+|    +--- org.apache.grails.views:grails-web-taglib:7.0.1 (c)
+|    +--- org.apache.grails.web:grails-encoder:7.0.1 (c)
+|    +--- org.apache.grails.web:grails-web-url-mappings:7.0.1 (c)
+|    +--- org.apache.grails:grails-codecs:7.0.1 (c)
+|    +--- org.apache.grails.views:grails-web-jsp:7.0.1 (c)
+|    +--- org.apache.grails:grails-controllers:7.0.1 (c)
+|    +--- opensymphony:sitemesh:2.6.0 (c)
+|    +--- org.apache.grails:grails-datasource:7.0.1 (c)
+|    +--- org.apache.grails:grails-converters:7.0.1 (c)
+|    +--- org.apache.grails:grails-fields:7.0.1 (c)
+|    +--- org.apache.grails.gradle:grails-gradle-common:7.0.1 (c)
+|    +--- org.apache.grails.gradle:grails-gradle-model:7.0.1 (c)
+|    +--- org.apache.grails.data:grails-datamapping-core:7.0.1 (c)
+|    +--- net.bytebuddy:byte-buddy:1.17.7 (c)
+|    +--- org.apache.grails.web:grails-web-databinding:7.0.1 (c)
+|    +--- org.apache.grails.databinding:grails-databinding-core:7.0.1 (c)
+|    +--- org.apache.grails.data:grails-datamapping-validation:7.0.1 (c)
+|    +--- org.apache.grails.codecs:grails-codecs-core:7.0.1 (c)
+|    +--- org.apache.grails:grails-mimetypes:7.0.1 (c)
+|    +--- org.apache.grails:grails-validation:7.0.1 (c)
+|    +--- org.apache.grails:grails-domain-class:7.0.1 (c)
+|    +--- org.apache.grails.i18n:grails-i18n:7.0.1 (c)
+|    +--- commons-codec:commons-codec:1.18.0 (c)
+|    \--- com.github.javaparser:javaparser-core:3.27.0 (c)
++--- org.apache.grails:grails-core -> 7.0.1
+|    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    +--- com.github.ben-manes.caffeine:caffeine -> 3.2.2
+|    |    +--- org.jspecify:jspecify:1.0.0
+|    |    \--- com.google.errorprone:error_prone_annotations:2.40.0
+|    +--- jakarta.inject:jakarta.inject-api -> 2.0.1
+|    +--- jakarta.persistence:jakarta.persistence-api -> 3.1.0
+|    +--- jakarta.annotation:jakarta.annotation-api -> 2.1.1
+|    +--- org.apache.groovy:groovy -> 4.0.29
+|    |    \--- org.apache.groovy:groovy-bom:4.0.29 (*)
+|    +--- org.springframework.boot:spring-boot -> 3.5.7
+|    |    +--- org.springframework:spring-core:6.2.12
+|    |    |    \--- org.springframework:spring-jcl:6.2.12
+|    |    \--- org.springframework:spring-context:6.2.12
+|    |         +--- org.springframework:spring-aop:6.2.12
+|    |         |    +--- org.springframework:spring-beans:6.2.12
+|    |         |    |    \--- org.springframework:spring-core:6.2.12 (*)
+|    |         |    \--- org.springframework:spring-core:6.2.12 (*)
+|    |         +--- org.springframework:spring-beans:6.2.12 (*)
+|    |         +--- org.springframework:spring-core:6.2.12 (*)
+|    |         +--- org.springframework:spring-expression:6.2.12
+|    |         |    \--- org.springframework:spring-core:6.2.12 (*)
+|    |         \--- io.micrometer:micrometer-observation:1.14.12 -> 1.15.5
+|    |              \--- io.micrometer:micrometer-commons:1.15.5
+|    +--- org.springframework:spring-core -> 6.2.12 (*)
+|    +--- org.springframework:spring-tx -> 6.2.12
+|    |    +--- org.springframework:spring-beans:6.2.12 (*)
+|    |    \--- org.springframework:spring-core:6.2.12 (*)
+|    +--- org.springframework:spring-beans -> 6.2.12 (*)
+|    +--- org.springframework:spring-context -> 6.2.12 (*)
+|    +--- org.springframework.boot:spring-boot-autoconfigure -> 3.5.7
+|    |    \--- org.springframework.boot:spring-boot:3.5.7 (*)
+|    +--- org.apache.grails.common:grails-common:7.0.1
+|    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    +--- org.springframework:spring-core -> 6.2.12 (*)
+|    |    +--- org.apache.grails.gradle:grails-gradle-common -> 7.0.1
+|    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    +--- org.slf4j:jcl-over-slf4j -> 2.0.17
+|    |    |    \--- org.slf4j:slf4j-api:2.0.17
+|    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    \--- org.springframework:spring-context -> 6.2.12 (*)
+|    +--- org.apache.grails.bootstrap:grails-bootstrap:7.0.1
+|    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    +--- org.springframework:spring-context -> 6.2.12 (*)
+|    |    +--- org.springframework.boot:spring-boot-autoconfigure -> 3.5.7 (*)
+|    |    +--- org.apache.grails.gradle:grails-gradle-model -> 7.0.1
+|    |    |    +--- org.apache.grails:grails-gradle-bom:7.0.1
+|    |    |    |    +--- org.springframework.boot:spring-boot-dependencies:3.5.7 (*)
+|    |    |    |    +--- org.spockframework:spock-bom:2.3-groovy-3.0 -> 2.3-groovy-4.0
+|    |    |    |    +--- net.bytebuddy:byte-buddy:1.17.7 (c)
+|    |    |    |    +--- org.apache.commons:commons-text:1.13.1 (c)
+|    |    |    |    +--- org.fusesource.jansi:jansi:1.18 (c)
+|    |    |    |    +--- org.apache.grails.gradle:grails-gradle-common:7.0.1 (c)
+|    |    |    |    +--- org.apache.grails.gradle:grails-gradle-model:7.0.1 (c)
+|    |    |    |    \--- com.github.javaparser:javaparser-core:3.27.0 (c)
+|    |    |    +--- org.springframework:spring-context -> 6.2.12 (*)
+|    |    |    +--- org.springframework.boot:spring-boot-autoconfigure -> 3.5.7 (*)
+|    |    |    +--- org.yaml:snakeyaml -> 2.4
+|    |    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    |    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    |    +--- org.yaml:snakeyaml -> 2.4
+|    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    +--- org.apache.grails:grails-spring:7.0.1
+|    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    +--- org.springframework:spring-tx -> 6.2.12 (*)
+|    |    +--- org.springframework:spring-web -> 6.2.12
+|    |    |    +--- org.springframework:spring-beans:6.2.12 (*)
+|    |    |    +--- org.springframework:spring-core:6.2.12 (*)
+|    |    |    \--- io.micrometer:micrometer-observation:1.14.12 -> 1.15.5 (*)
+|    |    +--- org.springframework:spring-context -> 6.2.12 (*)
+|    |    +--- org.apache.grails.bootstrap:grails-bootstrap:7.0.1 (*)
+|    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    +--- org.apache.groovy:groovy-xml -> 4.0.29
+|    |    |    +--- org.apache.groovy:groovy-bom:4.0.29 (*)
+|    |    |    \--- org.apache.groovy:groovy:4.0.29 (*)
+|    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    +--- org.apache.grails.data:grails-datastore-core:7.0.1
+|    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    +--- com.github.ben-manes.caffeine:caffeine -> 3.2.2 (*)
+|    |    +--- jakarta.annotation:jakarta.annotation-api -> 2.1.1
+|    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    +--- org.springframework:spring-beans -> 6.2.12 (*)
+|    |    +--- org.apache.grails.common:grails-common:7.0.1 (*)
+|    |    +--- jakarta.persistence:jakarta.persistence-api -> 3.1.0
+|    |    +--- org.javassist:javassist:3.30.2-GA
+|    |    +--- org.springframework:spring-context -> 6.2.12 (*)
+|    |    +--- org.springframework:spring-core -> 6.2.12 (*)
+|    |    \--- org.springframework:spring-tx -> 6.2.12 (*)
+|    +--- org.slf4j:slf4j-api -> 2.0.17
+|    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
++--- org.apache.grails:grails-data-hibernate5 -> 7.0.1
+|    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    +--- org.springframework.boot:spring-boot -> 3.5.7 (*)
+|    +--- org.springframework:spring-orm -> 6.2.12
+|    |    +--- org.springframework:spring-beans:6.2.12 (*)
+|    |    +--- org.springframework:spring-core:6.2.12 (*)
+|    |    +--- org.springframework:spring-jdbc:6.2.12
+|    |    |    +--- org.springframework:spring-beans:6.2.12 (*)
+|    |    |    +--- org.springframework:spring-core:6.2.12 (*)
+|    |    |    \--- org.springframework:spring-tx:6.2.12 (*)
+|    |    \--- org.springframework:spring-tx:6.2.12 (*)
+|    +--- org.hibernate:hibernate-core-jakarta:5.6.15.Final
+|    |    +--- org.jboss.logging:jboss-logging:3.4.3.Final -> 3.6.1.Final
+|    |    +--- jakarta.persistence:jakarta.persistence-api:3.0.0 -> 3.1.0
+|    |    +--- net.bytebuddy:byte-buddy:1.12.18 -> 1.17.7
+|    |    +--- antlr:antlr:2.7.7
+|    |    +--- jakarta.transaction:jakarta.transaction-api:2.0.0 -> 2.0.1
+|    |    +--- org.jboss:jandex:2.4.2.Final
+|    |    +--- com.fasterxml:classmate:1.5.1 -> 1.7.1
+|    |    +--- jakarta.activation:jakarta.activation-api:2.0.1 -> 2.1.4
+|    |    +--- org.dom4j:dom4j:2.1.3
+|    |    +--- org.hibernate.common:hibernate-commons-annotations:5.1.2.Final
+|    |    |    \--- org.jboss.logging:jboss-logging:3.3.2.Final -> 3.6.1.Final
+|    |    +--- jakarta.xml.bind:jakarta.xml.bind-api:3.0.1 -> 4.0.4
+|    |    |    \--- jakarta.activation:jakarta.activation-api:2.1.4
+|    |    \--- org.glassfish.jaxb:jaxb-runtime:3.0.0 -> 4.0.6
+|    |         \--- org.glassfish.jaxb:jaxb-core:4.0.6
+|    |              +--- jakarta.xml.bind:jakarta.xml.bind-api:4.0.4 (*)
+|    |              +--- jakarta.activation:jakarta.activation-api:2.1.4
+|    |              +--- org.eclipse.angus:angus-activation:2.0.3
+|    |              |    \--- jakarta.activation:jakarta.activation-api:2.1.4
+|    |              +--- org.glassfish.jaxb:txw2:4.0.6
+|    |              \--- com.sun.istack:istack-commons-runtime:4.1.2
+|    +--- org.apache.grails.data:grails-datastore-web:7.0.1
+|    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    +--- org.springframework:spring-tx -> 6.2.12 (*)
+|    |    +--- org.apache.grails.data:grails-datastore-core:7.0.1 (*)
+|    |    +--- org.springframework:spring-context -> 6.2.12 (*)
+|    |    \--- org.springframework:spring-web -> 6.2.12 (*)
+|    +--- org.apache.grails.data:grails-datamapping-support:7.0.1
+|    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    +--- org.apache.grails.bootstrap:grails-bootstrap:7.0.1 (*)
+|    |    +--- org.apache.grails.data:grails-datastore-core:7.0.1 (*)
+|    |    +--- org.apache.grails.data:grails-datamapping-core:7.0.1
+|    |    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    |    +--- org.hibernate.validator:hibernate-validator -> 8.0.3.Final
+|    |    |    |    +--- jakarta.validation:jakarta.validation-api:3.0.2
+|    |    |    |    +--- org.jboss.logging:jboss-logging:3.4.3.Final -> 3.6.1.Final
+|    |    |    |    \--- com.fasterxml:classmate:1.5.1 -> 1.7.1
+|    |    |    +--- org.apache.grails.data:grails-datastore-core:7.0.1 (*)
+|    |    |    +--- org.apache.grails.data:grails-datamapping-validation:7.0.1
+|    |    |    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    |    |    +--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    |    |    |    +--- org.springframework:spring-beans -> 6.2.12 (*)
+|    |    |    |    +--- org.springframework:spring-core -> 6.2.12 (*)
+|    |    |    |    +--- org.apache.grails.data:grails-datastore-core:7.0.1 (*)
+|    |    |    |    +--- commons-validator:commons-validator:1.9.0
+|    |    |    |    |    \--- commons-collections:commons-collections:3.2.2
+|    |    |    |    \--- org.springframework:spring-context -> 6.2.12 (*)
+|    |    |    +--- jakarta.annotation:jakarta.annotation-api -> 2.1.1
+|    |    |    +--- jakarta.persistence:jakarta.persistence-api -> 3.1.0
+|    |    |    +--- org.springframework:spring-context -> 6.2.12 (*)
+|    |    |    +--- org.springframework:spring-jdbc -> 6.2.12 (*)
+|    |    |    +--- org.springframework:spring-tx -> 6.2.12 (*)
+|    |    |    \--- org.glassfish.expressly:expressly:5.0.0
+|    |    |         \--- jakarta.el:jakarta.el-api:5.0.0
+|    |    +--- org.apache.grails:grails-core:7.0.1 (*)
+|    |    +--- org.springframework:spring-context -> 6.2.12 (*)
+|    |    \--- org.springframework:spring-core -> 6.2.12 (*)
+|    \--- org.apache.grails.data:grails-data-hibernate5-core:7.0.1
+|         +--- org.apache.grails:grails-bom:7.0.1 (*)
+|         +--- org.slf4j:slf4j-api -> 2.0.17
+|         +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|         +--- org.apache.grails.data:grails-datamapping-core:7.0.1 (*)
+|         +--- org.springframework:spring-orm -> 6.2.12 (*)
+|         +--- org.hibernate:hibernate-core-jakarta:5.6.15.Final (*)
+|         \--- org.hibernate.validator:hibernate-validator -> 8.0.3.Final (*)
++--- org.apache.grails:grails-databinding -> 7.0.1
+|    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    +--- org.apache.grails:grails-core:7.0.1 (*)
+|    +--- org.apache.grails.web:grails-web-core:7.0.1
+|    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    +--- org.apache.grails.web:grails-web-common:7.0.1
+|    |    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    |    +--- com.github.ben-manes.caffeine:caffeine -> 3.2.2 (*)
+|    |    |    +--- org.apache.grails:grails-core:7.0.1 (*)
+|    |    |    +--- org.apache.grails.databinding:grails-databinding-core:7.0.1
+|    |    |    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    |    |    +--- org.apache.grails.common:grails-common:7.0.1 (*)
+|    |    |    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    |    |    +--- org.apache.groovy:groovy-xml -> 4.0.29 (*)
+|    |    |    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    |    |    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    |    |    +--- org.apache.grails.web:grails-encoder:7.0.1
+|    |    |    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    |    |    +--- org.apache.grails:grails-core:7.0.1 (*)
+|    |    |    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    |    |    +--- org.apache.groovy:groovy-json -> 4.0.29
+|    |    |    |    |    +--- org.apache.groovy:groovy-bom:4.0.29 (*)
+|    |    |    |    |    \--- org.apache.groovy:groovy:4.0.29 (*)
+|    |    |    |    +--- org.springframework:spring-web -> 6.2.12 (*)
+|    |    |    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    |    |    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    |    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    |    +--- org.apache.groovy:groovy-templates -> 4.0.29
+|    |    |    |    +--- org.apache.groovy:groovy-bom:4.0.29 (*)
+|    |    |    |    +--- org.apache.groovy:groovy-xml:4.0.29 (*)
+|    |    |    |    \--- org.apache.groovy:groovy:4.0.29 (*)
+|    |    |    +--- org.springframework:spring-webmvc -> 6.2.12
+|    |    |    |    +--- org.springframework:spring-aop:6.2.12 (*)
+|    |    |    |    +--- org.springframework:spring-beans:6.2.12 (*)
+|    |    |    |    +--- org.springframework:spring-context:6.2.12 (*)
+|    |    |    |    +--- org.springframework:spring-core:6.2.12 (*)
+|    |    |    |    +--- org.springframework:spring-expression:6.2.12 (*)
+|    |    |    |    \--- org.springframework:spring-web:6.2.12 (*)
+|    |    |    +--- org.springframework:spring-context-support -> 6.2.12
+|    |    |    |    +--- org.springframework:spring-beans:6.2.12 (*)
+|    |    |    |    +--- org.springframework:spring-context:6.2.12 (*)
+|    |    |    |    \--- org.springframework:spring-core:6.2.12 (*)
+|    |    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    |    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    |    +--- org.apache.grails.web:grails-web-databinding:7.0.1
+|    |    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    |    +--- org.apache.grails.common:grails-common:7.0.1 (*)
+|    |    |    +--- org.apache.grails.databinding:grails-databinding-core:7.0.1 (*)
+|    |    |    +--- org.apache.grails.web:grails-web-common:7.0.1 (*)
+|    |    |    +--- org.apache.grails.web:grails-encoder:7.0.1 (*)
+|    |    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    |    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    |    +--- org.apache.grails.web:grails-web-url-mappings:7.0.1
+|    |    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    |    +--- com.github.ben-manes.caffeine:caffeine -> 3.2.2 (*)
+|    |    |    +--- org.apache.grails.web:grails-web-common:7.0.1 (*)
+|    |    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    |    +--- org.apache.grails.data:grails-datamapping-validation:7.0.1 (*)
+|    |    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    |    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    |    +--- org.apache.grails.web:grails-web-mvc:7.0.1
+|    |    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    |    +--- org.apache.grails.web:grails-web-common:7.0.1 (*)
+|    |    |    +--- org.apache.grails.web:grails-web-url-mappings:7.0.1 (*)
+|    |    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    |    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    |    +--- org.apache.grails.web:grails-encoder:7.0.1 (*)
+|    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    +--- org.apache.grails.views:grails-web-gsp -> 7.0.1
+|    |    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    |    +--- org.apache.grails.views:grails-gsp-core:7.0.1
+|    |    |    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    |    |    +--- org.apache.grails:grails-core:7.0.1 (*)
+|    |    |    |    +--- org.apache.grails.views:grails-taglib:7.0.1
+|    |    |    |    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    |    |    |    +--- org.apache.grails:grails-core:7.0.1 (*)
+|    |    |    |    |    \--- org.apache.grails.web:grails-encoder:7.0.1 (*)
+|    |    |    |    \--- org.apache.groovy:groovy-templates -> 4.0.29 (*)
+|    |    |    +--- org.apache.grails.web:grails-web-common:7.0.1 (*)
+|    |    |    \--- org.apache.grails.views:grails-web-taglib:7.0.1
+|    |    |         +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    |         +--- org.apache.grails.web:grails-web-common:7.0.1 (*)
+|    |    |         \--- org.apache.grails.views:grails-taglib:7.0.1 (*)
+|    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    +--- org.springframework.boot:spring-boot-autoconfigure -> 3.5.7 (*)
+|    +--- org.slf4j:slf4j-api -> 2.0.17
+|    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
++--- org.apache.grails:grails-events -> 7.0.1
+|    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    +--- org.apache.grails.events:grails-events-core:7.0.1
+|    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    +--- org.springframework:spring-context -> 6.2.12 (*)
+|    |    \--- org.springframework:spring-tx -> 6.2.12 (*)
+|    +--- org.apache.grails.events:grails-events-compat:7.0.1
+|    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    \--- org.apache.grails.events:grails-events-core:7.0.1 (*)
+|    \--- org.apache.grails.events:grails-events-transforms:7.0.1
+|         +--- org.apache.grails:grails-bom:7.0.1 (*)
+|         +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|         +--- org.slf4j:slf4j-api -> 2.0.17
+|         +--- org.springframework:spring-beans -> 6.2.12 (*)
+|         +--- org.springframework:spring-core -> 6.2.12 (*)
+|         +--- org.springframework:spring-tx -> 6.2.12 (*)
+|         +--- jakarta.annotation:jakarta.annotation-api -> 2.1.1
+|         +--- org.apache.grails.events:grails-events-core:7.0.1 (*)
+|         +--- org.apache.grails.data:grails-datastore-core:7.0.1 (*)
+|         \--- org.springframework:spring-context -> 6.2.12 (*)
++--- org.apache.grails:grails-gsp -> 7.0.1
+|    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    +--- org.apache.grails.views:grails-taglib:7.0.1 (*)
+|    +--- org.apache.grails.views:grails-web-gsp-taglib:7.0.1
+|    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    \--- org.apache.grails.views:grails-web-jsp:7.0.1
+|    |         +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |         +--- org.apache.grails.web:grails-web-common:7.0.1 (*)
+|    |         \--- org.apache.grails.views:grails-web-gsp:7.0.1 (*)
+|    +--- org.apache.commons:commons-text -> 1.13.1
+|    |    \--- org.apache.commons:commons-lang3:3.17.0
+|    +--- org.apache.groovy:groovy-xml -> 4.0.29 (*)
+|    +--- org.apache.grails:grails-core:7.0.1 (*)
+|    +--- org.apache.grails:grails-spring:7.0.1 (*)
+|    +--- org.apache.grails.web:grails-web-common:7.0.1 (*)
+|    +--- org.apache.grails.web:grails-web-mvc:7.0.1 (*)
+|    +--- org.springframework:spring-beans -> 6.2.12 (*)
+|    +--- org.apache.grails.views:grails-gsp-core:7.0.1 (*)
+|    +--- org.apache.grails.views:grails-web-gsp:7.0.1 (*)
+|    +--- org.apache.grails.views:grails-web-taglib:7.0.1 (*)
+|    +--- org.apache.grails.web:grails-encoder:7.0.1 (*)
+|    +--- org.apache.grails.web:grails-web-url-mappings:7.0.1 (*)
+|    +--- org.springframework:spring-context -> 6.2.12 (*)
+|    +--- org.springframework.boot:spring-boot -> 3.5.7 (*)
+|    +--- org.apache.grails:grails-codecs:7.0.1
+|    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    +--- org.apache.grails.web:grails-web-core:7.0.1 (*)
+|    |    +--- org.apache.grails.web:grails-encoder:7.0.1 (*)
+|    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    +--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    |    \--- org.apache.grails.codecs:grails-codecs-core:7.0.1
+|    |         +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |         +--- commons-codec:commons-codec -> 1.18.0
+|    |         +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |         +--- org.slf4j:slf4j-api -> 2.0.17
+|    |         \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    \--- org.apache.grails.views:grails-web-jsp:7.0.1 (*)
++--- org.apache.grails:grails-interceptors -> 7.0.1
+|    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    +--- org.apache.grails:grails-controllers:7.0.1
+|    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    +--- org.apache.grails:grails-core:7.0.1 (*)
+|    |    +--- org.apache.grails.web:grails-web-core:7.0.1 (*)
+|    |    +--- org.apache.grails:grails-mimetypes:7.0.1
+|    |    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    |    +--- org.apache.grails.web:grails-web-core:7.0.1 (*)
+|    |    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    |    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    |    +--- org.apache.grails:grails-validation:7.0.1
+|    |    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    |    +--- org.apache.grails:grails-core:7.0.1 (*)
+|    |    |    +--- org.apache.grails.web:grails-web-core:7.0.1 (*)
+|    |    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    |    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    |    +--- org.apache.grails:grails-domain-class:7.0.1
+|    |    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    |    +--- org.apache.grails.common:grails-common:7.0.1 (*)
+|    |    |    +--- org.apache.grails:grails-core:7.0.1 (*)
+|    |    |    +--- org.apache.grails:grails-spring:7.0.1 (*)
+|    |    |    +--- org.apache.grails:grails-validation:7.0.1 (*)
+|    |    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    |    +--- org.apache.grails.data:grails-datamapping-validation:7.0.1 (*)
+|    |    |    +--- org.apache.grails.data:grails-datamapping-core:7.0.1 (*)
+|    |    |    +--- org.apache.grails.data:grails-datamapping-support:7.0.1 (*)
+|    |    |    +--- org.apache.grails.data:grails-datastore-core:7.0.1 (*)
+|    |    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    |    +--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    |    |    \--- org.apache.grails.i18n:grails-i18n:7.0.1
+|    |    |         +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    |         +--- org.apache.grails.web:grails-web-core:7.0.1 (*)
+|    |    |         +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    |         +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    |         \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    +--- org.springframework.boot:spring-boot-autoconfigure -> 3.5.7 (*)
+|    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    +--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    |    \--- org.apache.grails.i18n:grails-i18n:7.0.1 (*)
+|    +--- org.apache.grails:grails-url-mappings:7.0.1
+|    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    +--- org.apache.grails.web:grails-web-core:7.0.1 (*)
+|    |    +--- org.apache.grails:grails-controllers:7.0.1 (*)
+|    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    +--- org.slf4j:slf4j-api -> 2.0.17
+|    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
++--- org.apache.grails:grails-layout -> 7.0.1
+|    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    +--- org.apache.grails.web:grails-web-common:7.0.1 (*)
+|    +--- org.apache.grails:grails-core:7.0.1 (*)
+|    +--- org.apache.grails:grails-gsp:7.0.1 (*)
+|    +--- opensymphony:sitemesh -> 2.6.0
+|    |    \--- jakarta.servlet:jakarta.servlet-api:6.0.0
+|    +--- org.apache.grails.views:grails-web-taglib:7.0.1 (*)
+|    \--- org.apache.grails.views:grails-web-jsp:7.0.1 (*)
++--- org.apache.grails:grails-logging -> 7.0.1
+|    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    +--- org.apache.grails:grails-core:7.0.1 (*)
+|    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    +--- org.slf4j:slf4j-api -> 2.0.17
+|    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
++--- org.apache.grails:grails-micronaut -> 7.0.1
+|    +--- io.micronaut.platform:micronaut-platform:4.9.2
+|    |    +--- org.junit:junit-bom:5.12.2
+|    |    +--- io.micronaut.acme:micronaut-acme-bom:5.5.0
+|    |    +--- io.micronaut.aot:micronaut-aot-bom:2.8.1
+|    |    +--- io.micronaut.aws:micronaut-aws-bom:4.11.0
+|    |    |    +--- com.amazonaws:aws-java-sdk-bom:1.12.787
+|    |    |    +--- software.amazon.awssdk:bom:2.31.66
+|    |    |    \--- org.slf4j:jcl-over-slf4j:2.0.17 (c)
+|    |    +--- io.micronaut.azure:micronaut-azure-bom:5.11.0
+|    |    |    \--- com.azure:azure-sdk-bom:1.2.35
+|    |    +--- io.micronaut.cache:micronaut-cache-bom:5.3.0
+|    |    |    +--- com.github.ben-manes.caffeine:caffeine:3.2.1 -> 3.2.2 (c)
+|    |    |    \--- io.micronaut.cache:micronaut-cache-core:5.3.0 (c)
+|    |    +--- io.micronaut.cassandra:micronaut-cassandra-bom:6.7.0
+|    |    +--- io.micronaut.chatbots:micronaut-chatbots-bom:1.5.0
+|    |    +--- io.micronaut.coherence:micronaut-coherence-bom:5.0.6
+|    |    |    \--- com.oracle.coherence.ce:coherence-bom:25.03.1
+|    |    +--- io.micronaut.controlpanel:micronaut-control-panel-bom:1.8.0
+|    |    +--- io.micronaut:micronaut-core-bom:4.9.9
+|    |    |    +--- org.apache.groovy:groovy-bom:4.0.27 -> 4.0.29 (*)
+|    |    |    +--- com.fasterxml.jackson:jackson-bom:2.19.1 -> 2.19.2 (*)
+|    |    |    +--- org.jetbrains.kotlin:kotlin-bom:1.9.25
+|    |    |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.8.1
+|    |    |    +--- io.micronaut.sourcegen:micronaut-sourcegen-bom:1.8.2
+|    |    |    |    +--- org.ow2.asm:asm:9.8 (c)
+|    |    |    |    +--- io.micronaut.sourcegen:micronaut-sourcegen-bytecode-writer:1.8.2 (c)
+|    |    |    |    +--- org.ow2.asm:asm-commons:9.8 (c)
+|    |    |    |    +--- org.ow2.asm:asm-util:9.8 (c)
+|    |    |    |    \--- io.micronaut.sourcegen:micronaut-sourcegen-model:1.8.2 (c)
+|    |    |    +--- io.netty:netty-bom:4.2.3.Final
+|    |    |    +--- org.apache.groovy:groovy:4.0.27 -> 4.0.29 (c)
+|    |    |    +--- org.apache.groovy:groovy-json:4.0.27 -> 4.0.29 (c)
+|    |    |    +--- org.apache.groovy:groovy-sql:4.0.27 -> 4.0.29 (c)
+|    |    |    +--- org.apache.groovy:groovy-templates:4.0.27 -> 4.0.29 (c)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.19.1 -> 2.19.2 (c)
+|    |    |    +--- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.1 -> 2.19.2 (c)
+|    |    |    +--- jakarta.annotation:jakarta.annotation-api:2.1.1 (c)
+|    |    |    +--- org.yaml:snakeyaml:2.4 (c)
+|    |    |    +--- io.micronaut:micronaut-aop:4.9.9 (c)
+|    |    |    +--- io.micronaut:micronaut-context:4.9.9 (c)
+|    |    |    +--- io.micronaut:micronaut-inject:4.9.9 (c)
+|    |    |    +--- io.micronaut:micronaut-core:4.9.9 (c)
+|    |    |    +--- io.projectreactor:reactor-core:3.7.7 -> 3.7.12 (c)
+|    |    |    +--- io.micronaut:micronaut-http:4.9.9 (c)
+|    |    |    +--- io.micronaut:micronaut-core-processor:4.9.9 (c)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.19.1 -> 2.19.2 (c)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.19.1 -> 2.19.2 (c)
+|    |    |    +--- org.reactivestreams:reactive-streams:1.0.4 (c)
+|    |    |    +--- io.micronaut:micronaut-core-reactive:4.9.9 (c)
+|    |    |    +--- io.micronaut:micronaut-context-propagation:4.9.9 (c)
+|    |    |    \--- com.github.javaparser:javaparser-symbol-solver-core:3.26.4 (c)
+|    |    +--- io.micronaut.crac:micronaut-crac-bom:2.7.0
+|    |    +--- io.micronaut.data:micronaut-data-bom:4.13.3
+|    |    +--- io.micronaut.discovery:micronaut-discovery-client-bom:4.7.1
+|    |    +--- io.micronaut.eclipsestore:micronaut-eclipsestore-bom:1.10.0
+|    |    +--- io.micronaut.elasticsearch:micronaut-elasticsearch-bom:5.9.0
+|    |    +--- io.micronaut.email:micronaut-email-bom:2.9.0
+|    |    +--- io.micronaut.flyway:micronaut-flyway-bom:7.8.0
+|    |    +--- io.micronaut.gcp:micronaut-gcp-bom:5.12.0
+|    |    +--- io.micronaut.graal-languages:micronaut-graal-languages-bom:1.2.0
+|    |    +--- io.micronaut.graphql:micronaut-graphql-bom:4.8.0
+|    |    +--- io.micronaut.groovy:micronaut-groovy-bom:4.7.0
+|    |    |    \--- org.apache.groovy:groovy-bom:4.0.18 -> 4.0.29 (*)
+|    |    +--- io.micronaut.grpc:micronaut-grpc-bom:4.11.0
+|    |    |    +--- io.grpc:grpc-bom:1.73.0
+|    |    |    \--- com.google.protobuf:protobuf-bom:3.25.8
+|    |    +--- io.micronaut.guice:micronaut-guice-bom:1.2.0
+|    |    +--- io.micronaut.guides:micronaut-guides-bom:0.1.0
+|    |    +--- io.micronaut.beanvalidation:micronaut-hibernate-validator-bom:4.8.0
+|    |    +--- io.micronaut.xml:micronaut-jackson-xml-bom:4.7.0
+|    |    +--- io.micronaut.jaxrs:micronaut-jaxrs-bom:4.9.2
+|    |    +--- io.micronaut.jms:micronaut-jms-bom:4.3.0
+|    |    +--- io.micronaut.jmx:micronaut-jmx-bom:4.7.0
+|    |    +--- io.micronaut.jsonschema:micronaut-json-schema-bom:1.6.0
+|    |    +--- io.micronaut.kafka:micronaut-kafka-bom:5.9.0
+|    |    +--- io.micronaut.kotlin:micronaut-kotlin-bom:4.7.0
+|    |    |    \--- io.ktor:ktor-bom:2.3.13
+|    |    +--- io.micronaut.kubernetes:micronaut-kubernetes-bom:7.1.1
+|    |    +--- io.micronaut.langchain4j:micronaut-langchain4j-bom:1.0.0
+|    |    +--- io.micronaut.liquibase:micronaut-liquibase-bom:6.8.0
+|    |    +--- io.micronaut.logging:micronaut-logging-bom:1.7.0
+|    |    |    +--- org.apache.logging.log4j:log4j-bom:2.24.3
+|    |    |    |    +--- org.jspecify:jspecify:1.0.0 (c)
+|    |    |    |    +--- org.apache.logging.log4j:log4j-api:2.24.3 (c)
+|    |    |    |    \--- org.apache.logging.log4j:log4j-to-slf4j:2.24.3 (c)
+|    |    |    +--- ch.qos.logback:logback-classic:1.5.18 -> 1.5.20 (c)
+|    |    |    +--- ch.qos.logback:logback-core:1.5.18 -> 1.5.20 (c)
+|    |    |    +--- org.slf4j:slf4j-api:2.0.17 (c)
+|    |    |    +--- org.slf4j:jcl-over-slf4j:2.0.17 (c)
+|    |    |    \--- org.slf4j:jul-to-slf4j:2.0.17 (c)
+|    |    +--- io.micronaut.micrometer:micronaut-micrometer-bom:5.12.0
+|    |    |    +--- io.micrometer:micrometer-bom:1.15.0
+|    |    |    |    +--- io.micrometer:micrometer-commons:1.15.0 -> 1.15.5 (c)
+|    |    |    |    +--- io.micrometer:micrometer-core:1.15.0 -> 1.15.5 (c)
+|    |    |    |    +--- io.micrometer:micrometer-jakarta9:1.15.0 -> 1.15.5 (c)
+|    |    |    |    \--- io.micrometer:micrometer-observation:1.15.0 -> 1.15.5 (c)
+|    |    |    +--- io.micrometer:micrometer-core:1.15.0 -> 1.15.5 (c)
+|    |    |    \--- io.micrometer:micrometer-observation:1.15.0 -> 1.15.5 (c)
+|    |    +--- io.micronaut.microstream:micronaut-microstream-bom:2.9.0
+|    |    +--- io.micronaut.mongodb:micronaut-mongo-bom:5.7.0
+|    |    +--- io.micronaut.mqtt:micronaut-mqtt-bom:3.7.0
+|    |    +--- io.micronaut.multitenancy:micronaut-multitenancy-bom:5.7.0
+|    |    +--- io.micronaut.nats:micronaut-nats-bom:4.8.0
+|    |    +--- io.micronaut.neo4j:micronaut-neo4j-bom:6.10.0
+|    |    +--- io.micronaut.objectstorage:micronaut-object-storage-bom:2.9.0
+|    |    +--- io.micronaut.openapi:micronaut-openapi-bom:6.17.3
+|    |    +--- io.micronaut.opensearch:micronaut-opensearch-bom:1.6.0
+|    |    +--- io.micronaut.oraclecloud:micronaut-oraclecloud-bom:5.2.0
+|    |    +--- io.micronaut.picocli:micronaut-picocli-bom:5.8.0
+|    |    +--- io.micronaut.problem:micronaut-problem-json-bom:3.8.0
+|    |    +--- io.micronaut.pulsar:micronaut-pulsar-bom:2.6.0
+|    |    +--- io.micronaut.r2dbc:micronaut-r2dbc-bom:6.1.0
+|    |    +--- io.micronaut.rabbitmq:micronaut-rabbitmq-bom:4.8.0
+|    |    +--- io.micronaut.reactor:micronaut-reactor-bom:3.8.0
+|    |    |    \--- io.projectreactor:reactor-bom:2024.0.7
+|    |    |         +--- io.projectreactor:reactor-core:3.7.7 -> 3.7.12 (c)
+|    |    |         \--- org.reactivestreams:reactive-streams:1.0.4 (c)
+|    |    +--- io.micronaut.redis:micronaut-redis-bom:6.8.0
+|    |    +--- io.micronaut.rss:micronaut-rss-bom:4.7.0
+|    |    +--- io.micronaut.rxjava2:micronaut-rxjava2-bom:2.8.0
+|    |    +--- io.micronaut.rxjava3:micronaut-rxjava3-bom:3.8.0
+|    |    +--- io.micronaut.security:micronaut-security-bom:4.13.1
+|    |    +--- io.micronaut.serde:micronaut-serde-bom:2.15.1
+|    |    +--- io.micronaut.servlet:micronaut-servlet-bom:5.4.0
+|    |    |    +--- org.eclipse.jetty:jetty-bom:12.0.21
+|    |    |    \--- jakarta.servlet:jakarta.servlet-api:6.1.0 -> 6.0.0 (c)
+|    |    +--- io.micronaut.session:micronaut-session-bom:4.7.0
+|    |    +--- io.micronaut.sourcegen:micronaut-sourcegen-bom:1.8.2 (*)
+|    |    +--- io.micronaut.spring:micronaut-spring-bom:5.11.0
+|    |    |    +--- org.springframework:spring-framework-bom:6.2.8
+|    |    |    |    +--- org.springframework:spring-aop:6.2.8 -> 6.2.12 (c)
+|    |    |    |    +--- org.springframework:spring-beans:6.2.8 -> 6.2.12 (c)
+|    |    |    |    +--- org.springframework:spring-context:6.2.8 -> 6.2.12 (c)
+|    |    |    |    +--- org.springframework:spring-context-support:6.2.8 -> 6.2.12 (c)
+|    |    |    |    +--- org.springframework:spring-core:6.2.8 -> 6.2.12 (c)
+|    |    |    |    +--- org.springframework:spring-expression:6.2.8 -> 6.2.12 (c)
+|    |    |    |    +--- org.springframework:spring-jcl:6.2.8 -> 6.2.12 (c)
+|    |    |    |    +--- org.springframework:spring-jdbc:6.2.8 -> 6.2.12 (c)
+|    |    |    |    +--- org.springframework:spring-orm:6.2.8 -> 6.2.12 (c)
+|    |    |    |    +--- org.springframework:spring-tx:6.2.8 -> 6.2.12 (c)
+|    |    |    |    +--- org.springframework:spring-web:6.2.8 -> 6.2.12 (c)
+|    |    |    |    \--- org.springframework:spring-webmvc:6.2.8 -> 6.2.12 (c)
+|    |    |    +--- org.springframework:spring-core:6.2.8 -> 6.2.12 (c)
+|    |    |    +--- org.springframework.boot:spring-boot:3.5.0 -> 3.5.7 (c)
+|    |    |    +--- org.springframework.boot:spring-boot-starter:3.5.0 -> 3.5.7 (c)
+|    |    |    +--- org.springframework:spring-context:6.2.8 -> 6.2.12 (c)
+|    |    |    +--- org.springframework:spring-jdbc:6.2.8 -> 6.2.12 (c)
+|    |    |    +--- org.springframework:spring-orm:6.2.8 -> 6.2.12 (c)
+|    |    |    +--- org.springframework:spring-tx:6.2.8 -> 6.2.12 (c)
+|    |    |    +--- io.micronaut.spring:micronaut-spring:5.11.0 (c)
+|    |    |    +--- io.micronaut.spring:micronaut-spring-boot-starter:5.11.0 (c)
+|    |    |    \--- io.micronaut.spring:micronaut-spring-context:5.11.0 (c)
+|    |    +--- io.micronaut.sql:micronaut-sql-bom:6.2.1
+|    |    |    +--- org.jdbi:jdbi3-bom:3.49.5
+|    |    |    +--- com.h2database:h2:2.3.232 (c)
+|    |    |    +--- com.zaxxer:HikariCP:6.3.0 -> 6.3.3 (c)
+|    |    |    +--- jakarta.persistence:jakarta.persistence-api:3.1.0 (c)
+|    |    |    \--- jakarta.transaction:jakarta.transaction-api:2.0.1 (c)
+|    |    +--- io.micronaut.test:micronaut-test-bom:4.8.1
+|    |    |    +--- org.junit:junit-bom:5.12.2
+|    |    |    +--- io.kotest:kotest-bom:5.9.1
+|    |    |    +--- io.rest-assured:rest-assured-bom:5.5.5
+|    |    |    +--- org.spockframework:spock-bom:2.3-groovy-4.0
+|    |    |    \--- net.bytebuddy:byte-buddy:1.17.5 -> 1.17.7 (c)
+|    |    +--- io.micronaut.testresources:micronaut-test-resources-bom:2.9.0
+|    |    |    \--- org.testcontainers:testcontainers-bom:1.20.6
+|    |    +--- io.micronaut.toml:micronaut-toml-bom:2.7.0
+|    |    +--- io.micronaut.tracing:micronaut-tracing-bom:7.1.4
+|    |    |    +--- io.zipkin.brave:brave-bom:6.3.0
+|    |    |    +--- io.opentelemetry:opentelemetry-bom:1.51.0
+|    |    |    +--- io.opentelemetry:opentelemetry-bom-alpha:1.51.0-alpha
+|    |    |    |    \--- io.opentelemetry:opentelemetry-bom:1.51.0
+|    |    |    +--- io.opentelemetry.instrumentation:opentelemetry-instrumentation-bom:2.16.0
+|    |    |    |    \--- io.opentelemetry:opentelemetry-bom:1.50.0 -> 1.51.0
+|    |    |    +--- io.opentelemetry.instrumentation:opentelemetry-instrumentation-bom-alpha:2.16.0-alpha
+|    |    |    |    +--- io.opentelemetry:opentelemetry-bom:1.50.0 -> 1.51.0
+|    |    |    |    +--- io.opentelemetry:opentelemetry-bom-alpha:1.50.0-alpha -> 1.51.0-alpha (*)
+|    |    |    |    \--- io.opentelemetry.instrumentation:opentelemetry-instrumentation-bom:2.16.0 (*)
+|    |    |    \--- io.zipkin.reporter2:zipkin-reporter-bom:3.5.1
+|    |    +--- io.micronaut.validation:micronaut-validation-bom:4.10.0
+|    |    |    \--- jakarta.validation:jakarta.validation-api:3.1.1 -> 3.0.2 (c)
+|    |    \--- io.micronaut.views:micronaut-views-bom:5.8.0
+|    +--- io.micronaut.spring:micronaut-spring-boot-starter -> 5.11.0
+|    |    +--- org.springframework.boot:spring-boot-autoconfigure:3.5.0 -> 3.5.7 (*)
+|    |    +--- jakarta.annotation:jakarta.annotation-api:2.1.1
+|    |    +--- io.micronaut:micronaut-inject:4.9.2 -> 4.9.9
+|    |    |    +--- org.slf4j:slf4j-api:2.0.17
+|    |    |    +--- jakarta.inject:jakarta.inject-api:2.0.1
+|    |    |    +--- jakarta.annotation:jakarta.annotation-api:2.1.1
+|    |    |    \--- io.micronaut:micronaut-core:4.9.9
+|    |    |         \--- org.slf4j:slf4j-api:2.0.17
+|    |    +--- org.springframework:spring-framework-bom:6.2.8 (*)
+|    |    +--- io.micronaut:micronaut-aop:4.9.2 -> 4.9.9
+|    |    |    +--- org.slf4j:slf4j-api:2.0.17
+|    |    |    +--- io.micronaut:micronaut-inject:4.9.9 (*)
+|    |    |    \--- io.micronaut:micronaut-core:4.9.9 (*)
+|    |    +--- io.micronaut:micronaut-context:4.9.2 -> 4.9.9
+|    |    |    +--- org.slf4j:slf4j-api:2.0.17
+|    |    |    +--- io.micronaut:micronaut-inject:4.9.9 (*)
+|    |    |    \--- io.micronaut:micronaut-aop:4.9.9 (*)
+|    |    +--- org.springframework.boot:spring-boot:3.5.0 -> 3.5.7 (*)
+|    |    \--- io.micronaut:micronaut-core-bom:4.9.2 -> 4.9.9 (*)
+|    \--- io.micronaut.spring:micronaut-spring-context -> 5.11.0
+|         +--- io.micronaut.cache:micronaut-cache-core:5.3.0
+|         |    +--- io.projectreactor:reactor-core:3.7.6 -> 3.7.12
+|         |    |    \--- org.reactivestreams:reactive-streams:1.0.4
+|         |    +--- io.micronaut:micronaut-inject:4.9.1 -> 4.9.9 (*)
+|         |    +--- io.micronaut:micronaut-aop:4.9.1 -> 4.9.9 (*)
+|         |    +--- io.micronaut:micronaut-http:4.9.1 -> 4.9.9
+|         |    |    +--- io.projectreactor:reactor-core:3.7.7 -> 3.7.12 (*)
+|         |    |    +--- org.slf4j:slf4j-api:2.0.17
+|         |    |    +--- io.micronaut:micronaut-context:4.9.9 (*)
+|         |    |    +--- io.micronaut:micronaut-core-reactive:4.9.9
+|         |    |    |    +--- org.slf4j:slf4j-api:2.0.17
+|         |    |    |    +--- io.micronaut:micronaut-core:4.9.9 (*)
+|         |    |    |    \--- org.reactivestreams:reactive-streams:1.0.4
+|         |    |    \--- io.micronaut:micronaut-context-propagation:4.9.9
+|         |    |         +--- org.slf4j:slf4j-api:2.0.17
+|         |    |         +--- io.micronaut:micronaut-context:4.9.9 (*)
+|         |    |         +--- io.micronaut:micronaut-inject:4.9.9 (*)
+|         |    |         \--- io.micronaut:micronaut-aop:4.9.9 (*)
+|         |    \--- io.micronaut:micronaut-core-bom:4.9.1 -> 4.9.9 (*)
+|         +--- io.micronaut:micronaut-inject:4.9.2 -> 4.9.9 (*)
+|         +--- org.springframework:spring-framework-bom:6.2.8 (*)
+|         +--- org.springframework:spring-context:6.2.8 -> 6.2.12 (*)
+|         +--- io.micronaut:micronaut-aop:4.9.2 -> 4.9.9 (*)
+|         +--- io.micronaut.spring:micronaut-spring:5.11.0
+|         |    +--- io.micronaut:micronaut-core-processor:4.9.2 -> 4.9.9
+|         |    |    +--- io.micronaut:micronaut-core-reactive:4.9.9 (*)
+|         |    |    +--- org.ow2.asm:asm:9.8
+|         |    |    +--- org.slf4j:slf4j-api:2.0.17
+|         |    |    +--- io.micronaut:micronaut-inject:4.9.9 (*)
+|         |    |    +--- io.micronaut:micronaut-aop:4.9.9 (*)
+|         |    |    +--- com.github.javaparser:javaparser-symbol-solver-core:3.26.4
+|         |    |    |    \--- com.github.javaparser:javaparser-core:3.26.4 -> 3.27.0
+|         |    |    \--- io.micronaut.sourcegen:micronaut-sourcegen-bytecode-writer:1.8.2
+|         |    |         +--- org.ow2.asm:asm:9.8
+|         |    |         +--- org.ow2.asm:asm-commons:9.8
+|         |    |         |    +--- org.ow2.asm:asm:9.8
+|         |    |         |    \--- org.ow2.asm:asm-tree:9.8
+|         |    |         |         \--- org.ow2.asm:asm:9.8
+|         |    |         +--- org.ow2.asm:asm-util:9.8
+|         |    |         |    +--- org.ow2.asm:asm:9.8
+|         |    |         |    +--- org.ow2.asm:asm-tree:9.8 (*)
+|         |    |         |    \--- org.ow2.asm:asm-analysis:9.8
+|         |    |         |         \--- org.ow2.asm:asm-tree:9.8 (*)
+|         |    |         +--- io.micronaut:micronaut-inject:4.9.1 -> 4.9.9 (*)
+|         |    |         +--- io.micronaut.sourcegen:micronaut-sourcegen-model:1.8.2
+|         |    |         |    +--- io.micronaut:micronaut-inject:4.9.1 -> 4.9.9 (*)
+|         |    |         |    \--- io.micronaut:micronaut-core-bom:4.9.1 -> 4.9.9 (*)
+|         |    |         \--- io.micronaut:micronaut-core-bom:4.9.1 -> 4.9.9 (*)
+|         |    +--- io.micronaut:micronaut-inject:4.9.2 -> 4.9.9 (*)
+|         |    +--- org.springframework:spring-framework-bom:6.2.8 (*)
+|         |    +--- org.springframework:spring-core:6.2.8 -> 6.2.12 (*)
+|         |    +--- org.springframework:spring-tx:6.2.8 -> 6.2.12 (*)
+|         |    +--- org.springframework:spring-context:6.2.8 -> 6.2.12 (*)
+|         |    +--- io.micronaut:micronaut-aop:4.9.2 -> 4.9.9 (*)
+|         |    \--- io.micronaut:micronaut-core-bom:4.9.2 -> 4.9.9 (*)
+|         \--- io.micronaut:micronaut-core-bom:4.9.2 -> 4.9.9 (*)
++--- org.apache.grails:grails-rest-transforms -> 7.0.1
+|    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    +--- org.apache.grails.common:grails-common:7.0.1 (*)
+|    +--- com.github.ben-manes.caffeine:caffeine -> 3.2.2 (*)
+|    +--- jakarta.xml.bind:jakarta.xml.bind-api -> 4.0.4 (*)
+|    +--- org.apache.grails.web:grails-web-core:7.0.1 (*)
+|    +--- org.apache.grails:grails-controllers:7.0.1 (*)
+|    +--- org.apache.grails:grails-datasource:7.0.1
+|    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    +--- org.springframework:spring-jdbc -> 6.2.12 (*)
+|    |    +--- org.apache.groovy:groovy-sql -> 4.0.29
+|    |    |    +--- org.apache.groovy:groovy-bom:4.0.29 (*)
+|    |    |    \--- org.apache.groovy:groovy:4.0.29 (*)
+|    |    +--- org.springframework:spring-context -> 6.2.12 (*)
+|    |    +--- org.apache.grails.data:grails-datamapping-core:7.0.1 (*)
+|    |    +--- org.apache.grails.data:grails-datastore-core:7.0.1 (*)
+|    |    +--- org.apache.grails:grails-core:7.0.1 (*)
+|    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    +--- org.apache.grails:grails-converters:7.0.1
+|    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    +--- org.apache.commons:commons-lang3 -> 3.17.0
+|    |    +--- org.apache.grails.data:grails-datamapping-core:7.0.1 (*)
+|    |    +--- org.apache.grails.web:grails-web-common:7.0.1 (*)
+|    |    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    |    +--- org.slf4j:slf4j-api -> 2.0.17
+|    |    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
+|    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    +--- org.slf4j:slf4j-api -> 2.0.17
+|    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
++--- org.apache.grails:grails-scaffolding -> 7.0.1
+|    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    +--- org.apache.grails:grails-fields:7.0.1
+|    |    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    |    \--- org.apache.grails:grails-gsp:7.0.1 (*)
+|    \--- org.apache.grails:grails-rest-transforms:7.0.1 (*)
++--- org.apache.grails:grails-services -> 7.0.1
+|    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    +--- org.springframework:spring-tx -> 6.2.12 (*)
+|    +--- org.apache.grails:grails-core:7.0.1 (*)
+|    +--- org.apache.grails:grails-datasource:7.0.1 (*)
+|    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    +--- org.slf4j:slf4j-api -> 2.0.17
+|    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
++--- org.apache.grails:grails-url-mappings -> 7.0.1 (*)
++--- org.apache.grails:grails-web-boot -> 7.0.1
+|    +--- org.apache.grails:grails-bom:7.0.1 (*)
+|    +--- org.apache.grails.web:grails-web-common:7.0.1 (*)
+|    +--- org.apache.groovy:groovy -> 4.0.29 (*)
+|    +--- org.slf4j:slf4j-api -> 2.0.17
+|    \--- org.slf4j:jcl-over-slf4j -> 2.0.17 (*)
++--- org.springframework.boot:spring-boot-autoconfigure -> 3.5.7 (*)
++--- org.springframework.boot:spring-boot-starter -> 3.5.7
+|    +--- org.springframework.boot:spring-boot:3.5.7 (*)
+|    +--- org.springframework.boot:spring-boot-autoconfigure:3.5.7 (*)
+|    +--- org.springframework.boot:spring-boot-starter-logging:3.5.7
+|    |    +--- ch.qos.logback:logback-classic:1.5.20
+|    |    |    +--- ch.qos.logback:logback-core:1.5.20
+|    |    |    \--- org.slf4j:slf4j-api:2.0.17
+|    |    +--- org.apache.logging.log4j:log4j-to-slf4j:2.24.3
+|    |    |    +--- org.apache.logging.log4j:log4j-api:2.24.3
+|    |    |    \--- org.slf4j:slf4j-api:2.0.16 -> 2.0.17
+|    |    \--- org.slf4j:jul-to-slf4j:2.0.17
+|    |         \--- org.slf4j:slf4j-api:2.0.17
+|    +--- jakarta.annotation:jakarta.annotation-api:2.1.1
+|    +--- org.springframework:spring-core:6.2.12 (*)
+|    \--- org.yaml:snakeyaml:2.4
++--- org.springframework.boot:spring-boot-starter-actuator -> 3.5.7
+|    +--- org.springframework.boot:spring-boot-starter:3.5.7 (*)
+|    +--- org.springframework.boot:spring-boot-actuator-autoconfigure:3.5.7
+|    |    +--- com.fasterxml.jackson.core:jackson-databind:2.19.2
+|    |    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.19.2
+|    |    |    |    \--- com.fasterxml.jackson:jackson-bom:2.19.2 (*)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.19.2
+|    |    |    |    \--- com.fasterxml.jackson:jackson-bom:2.19.2 (*)
+|    |    |    \--- com.fasterxml.jackson:jackson-bom:2.19.2 (*)
+|    |    +--- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.19.2
+|    |    |    +--- com.fasterxml.jackson.core:jackson-annotations:2.19.2 (*)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-core:2.19.2 (*)
+|    |    |    +--- com.fasterxml.jackson.core:jackson-databind:2.19.2 (*)
+|    |    |    \--- com.fasterxml.jackson:jackson-bom:2.19.2 (*)
+|    |    +--- org.springframework.boot:spring-boot:3.5.7 (*)
+|    |    +--- org.springframework.boot:spring-boot-actuator:3.5.7
+|    |    |    \--- org.springframework.boot:spring-boot:3.5.7 (*)
+|    |    \--- org.springframework.boot:spring-boot-autoconfigure:3.5.7 (*)
+|    +--- io.micrometer:micrometer-observation:1.15.5 (*)
+|    \--- io.micrometer:micrometer-jakarta9:1.15.5
+|         +--- io.micrometer:micrometer-core:1.15.5
+|         |    +--- io.micrometer:micrometer-commons:1.15.5
+|         |    +--- io.micrometer:micrometer-observation:1.15.5 (*)
+|         |    +--- org.hdrhistogram:HdrHistogram:2.2.2
+|         |    \--- org.latencyutils:LatencyUtils:2.0.3
+|         +--- io.micrometer:micrometer-commons:1.15.5
+|         \--- io.micrometer:micrometer-observation:1.15.5 (*)
++--- org.springframework.boot:spring-boot-starter-logging -> 3.5.7 (*)
++--- org.springframework.boot:spring-boot-starter-tomcat -> 3.5.7
+|    +--- jakarta.annotation:jakarta.annotation-api:2.1.1
+|    +--- org.apache.tomcat.embed:tomcat-embed-core:10.1.48
+|    +--- org.apache.tomcat.embed:tomcat-embed-el:10.1.48
+|    \--- org.apache.tomcat.embed:tomcat-embed-websocket:10.1.48
+|         \--- org.apache.tomcat.embed:tomcat-embed-core:10.1.48
++--- org.springframework.boot:spring-boot-starter-validation -> 3.5.7
+|    +--- org.springframework.boot:spring-boot-starter:3.5.7 (*)
+|    +--- org.apache.tomcat.embed:tomcat-embed-el:10.1.48
+|    \--- org.hibernate.validator:hibernate-validator:8.0.3.Final (*)
++--- cloud.wondrify:asset-pipeline-grails -> 5.0.19
+|    \--- cloud.wondrify:asset-pipeline-core:5.0.19
++--- com.h2database:h2 -> 2.3.232
++--- com.zaxxer:HikariCP -> 6.3.3
+|    \--- org.slf4j:slf4j-api:2.0.17
++--- org.fusesource.jansi:jansi -> 1.18
++--- org.springframework.boot:spring-boot-autoconfigure:{strictly 3.5.7} -> 3.5.7 (c)
++--- org.apache.grails:grails-bom:{strictly 7.0.1} -> 7.0.1 (c)
++--- com.h2database:h2:{strictly 2.3.232} -> 2.3.232 (c)
++--- com.zaxxer:HikariCP:{strictly 6.3.3} -> 6.3.3 (c)
++--- org.springframework.boot:spring-boot-starter:{strictly 3.5.7} -> 3.5.7 (c)
++--- org.springframework.boot:spring-boot-starter-logging:{strictly 3.5.7} -> 3.5.7 (c)
++--- org.springframework.boot:spring-boot-starter-actuator:{strictly 3.5.7} -> 3.5.7 (c)
++--- org.springframework.boot:spring-boot-starter-tomcat:{strictly 3.5.7} -> 3.5.7 (c)
++--- org.springframework.boot:spring-boot-starter-validation:{strictly 3.5.7} -> 3.5.7 (c)
++--- cloud.wondrify:asset-pipeline-grails:{strictly 5.0.19} -> 5.0.19 (c)
++--- org.fusesource.jansi:jansi:{strictly 1.18} -> 1.18 (c)
++--- org.apache.grails:grails-core:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-data-hibernate5:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-databinding:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-events:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-gsp:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-interceptors:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-url-mappings:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-layout:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-logging:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-micronaut:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-rest-transforms:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-scaffolding:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-services:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-web-boot:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.springframework.boot:spring-boot-dependencies:{strictly 3.5.7} -> 3.5.7 (c)
++--- cloud.wondrify:asset-pipeline-bom:{strictly 5.0.19} -> 5.0.19 (c)
++--- org.spockframework:spock-bom:{strictly 2.3-groovy-4.0} -> 2.3-groovy-4.0 (c)
++--- com.fasterxml.jackson:jackson-bom:{strictly 2.19.2} -> 2.19.2 (c)
++--- org.apache.groovy:groovy-bom:{strictly 4.0.29} -> 4.0.29 (c)
++--- org.seleniumhq.selenium:selenium-bom:{strictly 4.34.0} -> 4.34.0 (c)
++--- com.github.ben-manes.caffeine:caffeine:{strictly 3.2.2} -> 3.2.2 (c)
++--- jakarta.inject:jakarta.inject-api:{strictly 2.0.1} -> 2.0.1 (c)
++--- jakarta.persistence:jakarta.persistence-api:{strictly 3.1.0} -> 3.1.0 (c)
++--- jakarta.annotation:jakarta.annotation-api:{strictly 2.1.1} -> 2.1.1 (c)
++--- org.apache.groovy:groovy:{strictly 4.0.29} -> 4.0.29 (c)
++--- org.springframework.boot:spring-boot:{strictly 3.5.7} -> 3.5.7 (c)
++--- org.springframework:spring-core:{strictly 6.2.12} -> 6.2.12 (c)
++--- org.springframework:spring-tx:{strictly 6.2.12} -> 6.2.12 (c)
++--- org.springframework:spring-beans:{strictly 6.2.12} -> 6.2.12 (c)
++--- org.springframework:spring-context:{strictly 6.2.12} -> 6.2.12 (c)
++--- org.apache.grails.common:grails-common:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.bootstrap:grails-bootstrap:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-spring:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.data:grails-datastore-core:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.slf4j:slf4j-api:{strictly 2.0.17} -> 2.0.17 (c)
++--- org.slf4j:jcl-over-slf4j:{strictly 2.0.17} -> 2.0.17 (c)
++--- org.springframework:spring-orm:{strictly 6.2.12} -> 6.2.12 (c)
++--- org.hibernate:hibernate-core-jakarta:{strictly 5.6.15.Final} -> 5.6.15.Final (c)
++--- org.apache.grails.data:grails-datastore-web:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.data:grails-datamapping-support:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.data:grails-data-hibernate5-core:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.web:grails-web-core:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.events:grails-events-core:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.events:grails-events-compat:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.events:grails-events-transforms:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.views:grails-taglib:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.views:grails-web-gsp-taglib:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.commons:commons-text:{strictly 1.13.1} -> 1.13.1 (c)
++--- org.apache.groovy:groovy-xml:{strictly 4.0.29} -> 4.0.29 (c)
++--- org.apache.grails.web:grails-web-common:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.web:grails-web-mvc:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.views:grails-gsp-core:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.views:grails-web-gsp:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.views:grails-web-taglib:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.web:grails-encoder:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.web:grails-web-url-mappings:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-codecs:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.views:grails-web-jsp:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-controllers:{strictly 7.0.1} -> 7.0.1 (c)
++--- opensymphony:sitemesh:{strictly 2.6.0} -> 2.6.0 (c)
++--- io.micronaut.platform:micronaut-platform:{strictly 4.9.2} -> 4.9.2 (c)
++--- io.micronaut.spring:micronaut-spring-boot-starter:{strictly 5.11.0} -> 5.11.0 (c)
++--- io.micronaut.spring:micronaut-spring-context:{strictly 5.11.0} -> 5.11.0 (c)
++--- jakarta.xml.bind:jakarta.xml.bind-api:{strictly 4.0.4} -> 4.0.4 (c)
++--- org.apache.grails:grails-datasource:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-converters:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-fields:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.yaml:snakeyaml:{strictly 2.4} -> 2.4 (c)
++--- org.springframework.boot:spring-boot-actuator-autoconfigure:{strictly 3.5.7} -> 3.5.7 (c)
++--- io.micrometer:micrometer-observation:{strictly 1.15.5} -> 1.15.5 (c)
++--- io.micrometer:micrometer-jakarta9:{strictly 1.15.5} -> 1.15.5 (c)
++--- ch.qos.logback:logback-classic:{strictly 1.5.20} -> 1.5.20 (c)
++--- org.apache.logging.log4j:log4j-to-slf4j:{strictly 2.24.3} -> 2.24.3 (c)
++--- org.slf4j:jul-to-slf4j:{strictly 2.0.17} -> 2.0.17 (c)
++--- org.apache.tomcat.embed:tomcat-embed-core:{strictly 10.1.48} -> 10.1.48 (c)
++--- org.apache.tomcat.embed:tomcat-embed-el:{strictly 10.1.48} -> 10.1.48 (c)
++--- org.apache.tomcat.embed:tomcat-embed-websocket:{strictly 10.1.48} -> 10.1.48 (c)
++--- org.hibernate.validator:hibernate-validator:{strictly 8.0.3.Final} -> 8.0.3.Final (c)
++--- cloud.wondrify:asset-pipeline-core:{strictly 5.0.19} -> 5.0.19 (c)
++--- org.apache.grails.gradle:grails-gradle-common:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.gradle:grails-gradle-model:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.springframework:spring-web:{strictly 6.2.12} -> 6.2.12 (c)
++--- org.javassist:javassist:{strictly 3.30.2-GA} -> 3.30.2-GA (c)
++--- org.jspecify:jspecify:{strictly 1.0.0} -> 1.0.0 (c)
++--- com.google.errorprone:error_prone_annotations:{strictly 2.40.0} -> 2.40.0 (c)
++--- org.springframework:spring-jcl:{strictly 6.2.12} -> 6.2.12 (c)
++--- org.springframework:spring-aop:{strictly 6.2.12} -> 6.2.12 (c)
++--- org.springframework:spring-expression:{strictly 6.2.12} -> 6.2.12 (c)
++--- org.apache.grails.data:grails-datamapping-core:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.springframework:spring-jdbc:{strictly 6.2.12} -> 6.2.12 (c)
++--- org.jboss.logging:jboss-logging:{strictly 3.6.1.Final} -> 3.6.1.Final (c)
++--- net.bytebuddy:byte-buddy:{strictly 1.17.7} -> 1.17.7 (c)
++--- antlr:antlr:{strictly 2.7.7} -> 2.7.7 (c)
++--- jakarta.transaction:jakarta.transaction-api:{strictly 2.0.1} -> 2.0.1 (c)
++--- org.jboss:jandex:{strictly 2.4.2.Final} -> 2.4.2.Final (c)
++--- com.fasterxml:classmate:{strictly 1.7.1} -> 1.7.1 (c)
++--- jakarta.activation:jakarta.activation-api:{strictly 2.1.4} -> 2.1.4 (c)
++--- org.dom4j:dom4j:{strictly 2.1.3} -> 2.1.3 (c)
++--- org.hibernate.common:hibernate-commons-annotations:{strictly 5.1.2.Final} -> 5.1.2.Final (c)
++--- org.glassfish.jaxb:jaxb-runtime:{strictly 4.0.6} -> 4.0.6 (c)
++--- org.apache.grails.web:grails-web-databinding:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.commons:commons-lang3:{strictly 3.17.0} -> 3.17.0 (c)
++--- org.apache.grails.databinding:grails-databinding-core:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.groovy:groovy-templates:{strictly 4.0.29} -> 4.0.29 (c)
++--- org.springframework:spring-webmvc:{strictly 6.2.12} -> 6.2.12 (c)
++--- org.springframework:spring-context-support:{strictly 6.2.12} -> 6.2.12 (c)
++--- org.apache.groovy:groovy-json:{strictly 4.0.29} -> 4.0.29 (c)
++--- org.apache.grails.data:grails-datamapping-validation:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.codecs:grails-codecs-core:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-mimetypes:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-validation:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails:grails-domain-class:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.apache.grails.i18n:grails-i18n:{strictly 7.0.1} -> 7.0.1 (c)
++--- jakarta.servlet:jakarta.servlet-api:{strictly 6.0.0} -> 6.0.0 (c)
++--- org.junit:junit-bom:{strictly 5.12.2} -> 5.12.2 (c)
++--- io.micronaut.acme:micronaut-acme-bom:{strictly 5.5.0} -> 5.5.0 (c)
++--- io.micronaut.aot:micronaut-aot-bom:{strictly 2.8.1} -> 2.8.1 (c)
++--- io.micronaut.aws:micronaut-aws-bom:{strictly 4.11.0} -> 4.11.0 (c)
++--- io.micronaut.azure:micronaut-azure-bom:{strictly 5.11.0} -> 5.11.0 (c)
++--- io.micronaut.cache:micronaut-cache-bom:{strictly 5.3.0} -> 5.3.0 (c)
++--- io.micronaut.cassandra:micronaut-cassandra-bom:{strictly 6.7.0} -> 6.7.0 (c)
++--- io.micronaut.chatbots:micronaut-chatbots-bom:{strictly 1.5.0} -> 1.5.0 (c)
++--- io.micronaut.coherence:micronaut-coherence-bom:{strictly 5.0.6} -> 5.0.6 (c)
++--- io.micronaut.controlpanel:micronaut-control-panel-bom:{strictly 1.8.0} -> 1.8.0 (c)
++--- io.micronaut:micronaut-core-bom:{strictly 4.9.9} -> 4.9.9 (c)
++--- io.micronaut.crac:micronaut-crac-bom:{strictly 2.7.0} -> 2.7.0 (c)
++--- io.micronaut.data:micronaut-data-bom:{strictly 4.13.3} -> 4.13.3 (c)
++--- io.micronaut.discovery:micronaut-discovery-client-bom:{strictly 4.7.1} -> 4.7.1 (c)
++--- io.micronaut.eclipsestore:micronaut-eclipsestore-bom:{strictly 1.10.0} -> 1.10.0 (c)
++--- io.micronaut.elasticsearch:micronaut-elasticsearch-bom:{strictly 5.9.0} -> 5.9.0 (c)
++--- io.micronaut.email:micronaut-email-bom:{strictly 2.9.0} -> 2.9.0 (c)
++--- io.micronaut.flyway:micronaut-flyway-bom:{strictly 7.8.0} -> 7.8.0 (c)
++--- io.micronaut.gcp:micronaut-gcp-bom:{strictly 5.12.0} -> 5.12.0 (c)
++--- io.micronaut.graal-languages:micronaut-graal-languages-bom:{strictly 1.2.0} -> 1.2.0 (c)
++--- io.micronaut.graphql:micronaut-graphql-bom:{strictly 4.8.0} -> 4.8.0 (c)
++--- io.micronaut.groovy:micronaut-groovy-bom:{strictly 4.7.0} -> 4.7.0 (c)
++--- io.micronaut.grpc:micronaut-grpc-bom:{strictly 4.11.0} -> 4.11.0 (c)
++--- io.micronaut.guice:micronaut-guice-bom:{strictly 1.2.0} -> 1.2.0 (c)
++--- io.micronaut.guides:micronaut-guides-bom:{strictly 0.1.0} -> 0.1.0 (c)
++--- io.micronaut.beanvalidation:micronaut-hibernate-validator-bom:{strictly 4.8.0} -> 4.8.0 (c)
++--- io.micronaut.xml:micronaut-jackson-xml-bom:{strictly 4.7.0} -> 4.7.0 (c)
++--- io.micronaut.jaxrs:micronaut-jaxrs-bom:{strictly 4.9.2} -> 4.9.2 (c)
++--- io.micronaut.jms:micronaut-jms-bom:{strictly 4.3.0} -> 4.3.0 (c)
++--- io.micronaut.jmx:micronaut-jmx-bom:{strictly 4.7.0} -> 4.7.0 (c)
++--- io.micronaut.jsonschema:micronaut-json-schema-bom:{strictly 1.6.0} -> 1.6.0 (c)
++--- io.micronaut.kafka:micronaut-kafka-bom:{strictly 5.9.0} -> 5.9.0 (c)
++--- io.micronaut.kotlin:micronaut-kotlin-bom:{strictly 4.7.0} -> 4.7.0 (c)
++--- io.micronaut.kubernetes:micronaut-kubernetes-bom:{strictly 7.1.1} -> 7.1.1 (c)
++--- io.micronaut.langchain4j:micronaut-langchain4j-bom:{strictly 1.0.0} -> 1.0.0 (c)
++--- io.micronaut.liquibase:micronaut-liquibase-bom:{strictly 6.8.0} -> 6.8.0 (c)
++--- io.micronaut.logging:micronaut-logging-bom:{strictly 1.7.0} -> 1.7.0 (c)
++--- io.micronaut.micrometer:micronaut-micrometer-bom:{strictly 5.12.0} -> 5.12.0 (c)
++--- io.micronaut.microstream:micronaut-microstream-bom:{strictly 2.9.0} -> 2.9.0 (c)
++--- io.micronaut.mongodb:micronaut-mongo-bom:{strictly 5.7.0} -> 5.7.0 (c)
++--- io.micronaut.mqtt:micronaut-mqtt-bom:{strictly 3.7.0} -> 3.7.0 (c)
++--- io.micronaut.multitenancy:micronaut-multitenancy-bom:{strictly 5.7.0} -> 5.7.0 (c)
++--- io.micronaut.nats:micronaut-nats-bom:{strictly 4.8.0} -> 4.8.0 (c)
++--- io.micronaut.neo4j:micronaut-neo4j-bom:{strictly 6.10.0} -> 6.10.0 (c)
++--- io.micronaut.objectstorage:micronaut-object-storage-bom:{strictly 2.9.0} -> 2.9.0 (c)
++--- io.micronaut.openapi:micronaut-openapi-bom:{strictly 6.17.3} -> 6.17.3 (c)
++--- io.micronaut.opensearch:micronaut-opensearch-bom:{strictly 1.6.0} -> 1.6.0 (c)
++--- io.micronaut.oraclecloud:micronaut-oraclecloud-bom:{strictly 5.2.0} -> 5.2.0 (c)
++--- io.micronaut.picocli:micronaut-picocli-bom:{strictly 5.8.0} -> 5.8.0 (c)
++--- io.micronaut.problem:micronaut-problem-json-bom:{strictly 3.8.0} -> 3.8.0 (c)
++--- io.micronaut.pulsar:micronaut-pulsar-bom:{strictly 2.6.0} -> 2.6.0 (c)
++--- io.micronaut.r2dbc:micronaut-r2dbc-bom:{strictly 6.1.0} -> 6.1.0 (c)
++--- io.micronaut.rabbitmq:micronaut-rabbitmq-bom:{strictly 4.8.0} -> 4.8.0 (c)
++--- io.micronaut.reactor:micronaut-reactor-bom:{strictly 3.8.0} -> 3.8.0 (c)
++--- io.micronaut.redis:micronaut-redis-bom:{strictly 6.8.0} -> 6.8.0 (c)
++--- io.micronaut.rss:micronaut-rss-bom:{strictly 4.7.0} -> 4.7.0 (c)
++--- io.micronaut.rxjava2:micronaut-rxjava2-bom:{strictly 2.8.0} -> 2.8.0 (c)
++--- io.micronaut.rxjava3:micronaut-rxjava3-bom:{strictly 3.8.0} -> 3.8.0 (c)
++--- io.micronaut.security:micronaut-security-bom:{strictly 4.13.1} -> 4.13.1 (c)
++--- io.micronaut.serde:micronaut-serde-bom:{strictly 2.15.1} -> 2.15.1 (c)
++--- io.micronaut.servlet:micronaut-servlet-bom:{strictly 5.4.0} -> 5.4.0 (c)
++--- io.micronaut.session:micronaut-session-bom:{strictly 4.7.0} -> 4.7.0 (c)
++--- io.micronaut.sourcegen:micronaut-sourcegen-bom:{strictly 1.8.2} -> 1.8.2 (c)
++--- io.micronaut.spring:micronaut-spring-bom:{strictly 5.11.0} -> 5.11.0 (c)
++--- io.micronaut.sql:micronaut-sql-bom:{strictly 6.2.1} -> 6.2.1 (c)
++--- io.micronaut.test:micronaut-test-bom:{strictly 4.8.1} -> 4.8.1 (c)
++--- io.micronaut.testresources:micronaut-test-resources-bom:{strictly 2.9.0} -> 2.9.0 (c)
++--- io.micronaut.toml:micronaut-toml-bom:{strictly 2.7.0} -> 2.7.0 (c)
++--- io.micronaut.tracing:micronaut-tracing-bom:{strictly 7.1.4} -> 7.1.4 (c)
++--- io.micronaut.validation:micronaut-validation-bom:{strictly 4.10.0} -> 4.10.0 (c)
++--- io.micronaut.views:micronaut-views-bom:{strictly 5.8.0} -> 5.8.0 (c)
++--- io.micronaut:micronaut-inject:{strictly 4.9.9} -> 4.9.9 (c)
++--- org.springframework:spring-framework-bom:{strictly 6.2.8} -> 6.2.8 (c)
++--- io.micronaut:micronaut-aop:{strictly 4.9.9} -> 4.9.9 (c)
++--- io.micronaut:micronaut-context:{strictly 4.9.9} -> 4.9.9 (c)
++--- io.micronaut.cache:micronaut-cache-core:{strictly 5.3.0} -> 5.3.0 (c)
++--- io.micronaut.spring:micronaut-spring:{strictly 5.11.0} -> 5.11.0 (c)
++--- org.apache.groovy:groovy-sql:{strictly 4.0.29} -> 4.0.29 (c)
++--- com.fasterxml.jackson.core:jackson-databind:{strictly 2.19.2} -> 2.19.2 (c)
++--- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:{strictly 2.19.2} -> 2.19.2 (c)
++--- org.springframework.boot:spring-boot-actuator:{strictly 3.5.7} -> 3.5.7 (c)
++--- io.micrometer:micrometer-commons:{strictly 1.15.5} -> 1.15.5 (c)
++--- io.micrometer:micrometer-core:{strictly 1.15.5} -> 1.15.5 (c)
++--- ch.qos.logback:logback-core:{strictly 1.5.20} -> 1.5.20 (c)
++--- org.apache.logging.log4j:log4j-api:{strictly 2.24.3} -> 2.24.3 (c)
++--- jakarta.validation:jakarta.validation-api:{strictly 3.0.2} -> 3.0.2 (c)
++--- org.apache.grails:grails-gradle-bom:{strictly 7.0.1} -> 7.0.1 (c)
++--- org.glassfish.expressly:expressly:{strictly 5.0.0} -> 5.0.0 (c)
++--- org.glassfish.jaxb:jaxb-core:{strictly 4.0.6} -> 4.0.6 (c)
++--- commons-validator:commons-validator:{strictly 1.9.0} -> 1.9.0 (c)
++--- commons-codec:commons-codec:{strictly 1.18.0} -> 1.18.0 (c)
++--- com.amazonaws:aws-java-sdk-bom:{strictly 1.12.787} -> 1.12.787 (c)
++--- software.amazon.awssdk:bom:{strictly 2.31.66} -> 2.31.66 (c)
++--- com.azure:azure-sdk-bom:{strictly 1.2.35} -> 1.2.35 (c)
++--- com.oracle.coherence.ce:coherence-bom:{strictly 25.03.1} -> 25.03.1 (c)
++--- org.jetbrains.kotlin:kotlin-bom:{strictly 1.9.25} -> 1.9.25 (c)
++--- org.jetbrains.kotlinx:kotlinx-coroutines-bom:{strictly 1.8.1} -> 1.8.1 (c)
++--- io.netty:netty-bom:{strictly 4.2.3.Final} -> 4.2.3.Final (c)
++--- io.grpc:grpc-bom:{strictly 1.73.0} -> 1.73.0 (c)
++--- com.google.protobuf:protobuf-bom:{strictly 3.25.8} -> 3.25.8 (c)
++--- io.ktor:ktor-bom:{strictly 2.3.13} -> 2.3.13 (c)
++--- org.apache.logging.log4j:log4j-bom:{strictly 2.24.3} -> 2.24.3 (c)
++--- io.micrometer:micrometer-bom:{strictly 1.15.0} -> 1.15.0 (c)
++--- io.projectreactor:reactor-bom:{strictly 2024.0.7} -> 2024.0.7 (c)
++--- org.eclipse.jetty:jetty-bom:{strictly 12.0.21} -> 12.0.21 (c)
++--- org.jdbi:jdbi3-bom:{strictly 3.49.5} -> 3.49.5 (c)
++--- io.kotest:kotest-bom:{strictly 5.9.1} -> 5.9.1 (c)
++--- io.rest-assured:rest-assured-bom:{strictly 5.5.5} -> 5.5.5 (c)
++--- org.testcontainers:testcontainers-bom:{strictly 1.20.6} -> 1.20.6 (c)
++--- io.zipkin.brave:brave-bom:{strictly 6.3.0} -> 6.3.0 (c)
++--- io.opentelemetry:opentelemetry-bom:{strictly 1.51.0} -> 1.51.0 (c)
++--- io.opentelemetry:opentelemetry-bom-alpha:{strictly 1.51.0-alpha} -> 1.51.0-alpha (c)
++--- io.opentelemetry.instrumentation:opentelemetry-instrumentation-bom:{strictly 2.16.0} -> 2.16.0 (c)
++--- io.opentelemetry.instrumentation:opentelemetry-instrumentation-bom-alpha:{strictly 2.16.0-alpha} -> 2.16.0-alpha (c)
++--- io.zipkin.reporter2:zipkin-reporter-bom:{strictly 3.5.1} -> 3.5.1 (c)
++--- io.micronaut:micronaut-core:{strictly 4.9.9} -> 4.9.9 (c)
++--- io.projectreactor:reactor-core:{strictly 3.7.12} -> 3.7.12 (c)
++--- io.micronaut:micronaut-http:{strictly 4.9.9} -> 4.9.9 (c)
++--- io.micronaut:micronaut-core-processor:{strictly 4.9.9} -> 4.9.9 (c)
++--- com.fasterxml.jackson.core:jackson-annotations:{strictly 2.19.2} -> 2.19.2 (c)
++--- com.fasterxml.jackson.core:jackson-core:{strictly 2.19.2} -> 2.19.2 (c)
++--- org.hdrhistogram:HdrHistogram:{strictly 2.2.2} -> 2.2.2 (c)
++--- org.latencyutils:LatencyUtils:{strictly 2.0.3} -> 2.0.3 (c)
++--- jakarta.el:jakarta.el-api:{strictly 5.0.0} -> 5.0.0 (c)
++--- org.eclipse.angus:angus-activation:{strictly 2.0.3} -> 2.0.3 (c)
++--- org.glassfish.jaxb:txw2:{strictly 4.0.6} -> 4.0.6 (c)
++--- com.sun.istack:istack-commons-runtime:{strictly 4.1.2} -> 4.1.2 (c)
++--- commons-collections:commons-collections:{strictly 3.2.2} -> 3.2.2 (c)
++--- org.reactivestreams:reactive-streams:{strictly 1.0.4} -> 1.0.4 (c)
++--- io.micronaut:micronaut-core-reactive:{strictly 4.9.9} -> 4.9.9 (c)
++--- io.micronaut:micronaut-context-propagation:{strictly 4.9.9} -> 4.9.9 (c)
++--- org.ow2.asm:asm:{strictly 9.8} -> 9.8 (c)
++--- com.github.javaparser:javaparser-symbol-solver-core:{strictly 3.26.4} -> 3.26.4 (c)
++--- io.micronaut.sourcegen:micronaut-sourcegen-bytecode-writer:{strictly 1.8.2} -> 1.8.2 (c)
++--- com.github.javaparser:javaparser-core:{strictly 3.27.0} -> 3.27.0 (c)
++--- org.ow2.asm:asm-commons:{strictly 9.8} -> 9.8 (c)
++--- org.ow2.asm:asm-util:{strictly 9.8} -> 9.8 (c)
++--- io.micronaut.sourcegen:micronaut-sourcegen-model:{strictly 1.8.2} -> 1.8.2 (c)
++--- org.ow2.asm:asm-tree:{strictly 9.8} -> 9.8 (c)
+\--- org.ow2.asm:asm-analysis:{strictly 9.8} -> 9.8 (c)
+
+(c) - A dependency constraint, not a dependency. The dependency affected by the constraint occurs elsewhere in the tree.
+(*) - Indicates repeated occurrences of a transitive dependency subtree. Gradle expands transitive dependency subtrees only once per project; repeat occurrences only display the root of the subtree, followed by this annotation.
+
+A web-based, searchable dependency report is available by adding the --scan option.
+
+BUILD SUCCESSFUL in 913ms
+1 actionable task: 1 executed
